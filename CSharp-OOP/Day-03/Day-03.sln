@@ -1,0 +1,53 @@
+<<<<<<< HEAD
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryEncapsulation", "TrayEncapsulation\TryEncapsulation.csproj", "{AC3FABE3-0855-464F-A3EB-442470E9C827}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC3FABE3-0855-464F-A3EB-442470E9C827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3FABE3-0855-464F-A3EB-442470E9C827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3FABE3-0855-464F-A3EB-442470E9C827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3FABE3-0855-464F-A3EB-442470E9C827}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A235E82-A676-41AF-B034-5510809208E9}
+	EndGlobalSection
+EndGlobal
+=======
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryEncapsulation", "TrayEncapsulation\TryEncapsulation.csproj", "{AC3FABE3-0855-464F-A3EB-442470E9C827}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC3FABE3-0855-464F-A3EB-442470E9C827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3FABE3-0855-464F-A3EB-442470E9C827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3FABE3-0855-464F-A3EB-442470E9C827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3FABE3-0855-464F-A3EB-442470E9C827}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A235E82-A676-41AF-B034-5510809208E9}
+	EndGlobalSection
+EndGlobal
+>>>>>>> a9b7bec3ae9ffe66ace7ca5f825c2eee046168c2

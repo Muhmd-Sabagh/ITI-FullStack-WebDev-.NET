@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A536E4D9-2E9B-4EEF-8A90-2EB58793C809}|Stack-Queue-Operator\\Stack-Queue-Operator.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-05\\stack-queue-operator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A536E4D9-2E9B-4EEF-8A90-2EB58793C809}|Stack-Queue-Operator\\Stack-Queue-Operator.csproj|solutionrelative:stack-queue-operator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A536E4D9-2E9B-4EEF-8A90-2EB58793C809}|Stack-Queue-Operator\\Stack-Queue-Operator.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-05\\stack-queue-operator\\shiftqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A536E4D9-2E9B-4EEF-8A90-2EB58793C809}|Stack-Queue-Operator\\Stack-Queue-Operator.csproj|solutionrelative:stack-queue-operator\\shiftqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A536E4D9-2E9B-4EEF-8A90-2EB58793C809}|Stack-Queue-Operator\\Stack-Queue-Operator.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-05\\stack-queue-operator\\genericstack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A536E4D9-2E9B-4EEF-8A90-2EB58793C809}|Stack-Queue-Operator\\Stack-Queue-Operator.csproj|solutionrelative:stack-queue-operator\\genericstack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A536E4D9-2E9B-4EEF-8A90-2EB58793C809}|Stack-Queue-Operator\\Stack-Queue-Operator.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-05\\stack-queue-operator\\dynamicstack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A536E4D9-2E9B-4EEF-8A90-2EB58793C809}|Stack-Queue-Operator\\Stack-Queue-Operator.csproj|solutionrelative:stack-queue-operator\\dynamicstack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A536E4D9-2E9B-4EEF-8A90-2EB58793C809}|Stack-Queue-Operator\\Stack-Queue-Operator.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-05\\stack-queue-operator\\complex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A536E4D9-2E9B-4EEF-8A90-2EB58793C809}|Stack-Queue-Operator\\Stack-Queue-Operator.csproj|solutionrelative:stack-queue-operator\\complex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A536E4D9-2E9B-4EEF-8A90-2EB58793C809}|Stack-Queue-Operator\\Stack-Queue-Operator.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-05\\stack-queue-operator\\circlequeue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A536E4D9-2E9B-4EEF-8A90-2EB58793C809}|Stack-Queue-Operator\\Stack-Queue-Operator.csproj|solutionrelative:stack-queue-operator\\circlequeue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShiftQueue.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-05\\Stack-Queue-Operator\\ShiftQueue.cs",
+              "RelativeDocumentMoniker": "Stack-Queue-Operator\\ShiftQueue.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-05\\Stack-Queue-Operator\\ShiftQueue.cs",
+              "RelativeToolTip": "Stack-Queue-Operator\\ShiftQueue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T03:19:55.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenericStack.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-05\\Stack-Queue-Operator\\GenericStack.cs",
+              "RelativeDocumentMoniker": "Stack-Queue-Operator\\GenericStack.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-05\\Stack-Queue-Operator\\GenericStack.cs",
+              "RelativeToolTip": "Stack-Queue-Operator\\GenericStack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T03:19:48.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DynamicStack.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-05\\Stack-Queue-Operator\\DynamicStack.cs",
+              "RelativeDocumentMoniker": "Stack-Queue-Operator\\DynamicStack.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-05\\Stack-Queue-Operator\\DynamicStack.cs",
+              "RelativeToolTip": "Stack-Queue-Operator\\DynamicStack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T03:19:42.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-05\\Stack-Queue-Operator\\Program.cs",
+              "RelativeDocumentMoniker": "Stack-Queue-Operator\\Program.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-05\\Stack-Queue-Operator\\Program.cs",
+              "RelativeToolTip": "Stack-Queue-Operator\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T03:18:13.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Complex.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-05\\Stack-Queue-Operator\\Complex.cs",
+              "RelativeDocumentMoniker": "Stack-Queue-Operator\\Complex.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-05\\Stack-Queue-Operator\\Complex.cs",
+              "RelativeToolTip": "Stack-Queue-Operator\\Complex.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T03:19:33.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CircleQueue.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-05\\Stack-Queue-Operator\\CircleQueue.cs",
+              "RelativeDocumentMoniker": "Stack-Queue-Operator\\CircleQueue.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-05\\Stack-Queue-Operator\\CircleQueue.cs",
+              "RelativeToolTip": "Stack-Queue-Operator\\CircleQueue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T03:19:23.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

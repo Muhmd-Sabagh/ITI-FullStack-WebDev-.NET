@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-07\\early\u0026late-binding\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|solutionrelative:early\u0026late-binding\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-07\\early\u0026late-binding\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|solutionrelative:early\u0026late-binding\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-07\\early\u0026late-binding\\subchild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|solutionrelative:early\u0026late-binding\\subchild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-07\\early\u0026late-binding\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|solutionrelative:early\u0026late-binding\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-07\\early\u0026late-binding\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|solutionrelative:early\u0026late-binding\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-07\\early\u0026late-binding\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|solutionrelative:early\u0026late-binding\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-07\\early\u0026late-binding\\geoshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|solutionrelative:early\u0026late-binding\\geoshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-07\\early\u0026late-binding\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|solutionrelative:early\u0026late-binding\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-07\\early\u0026late-binding\\child.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|solutionrelative:early\u0026late-binding\\child.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Utility.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\Utility.cs",
+              "RelativeDocumentMoniker": "Early\u0026Late-Binding\\Utility.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\Utility.cs",
+              "RelativeToolTip": "Early\u0026Late-Binding\\Utility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T04:16:02.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Triangle.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\Triangle.cs",
+              "RelativeDocumentMoniker": "Early\u0026Late-Binding\\Triangle.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\Triangle.cs",
+              "RelativeToolTip": "Early\u0026Late-Binding\\Triangle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T04:15:58.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SubChild.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\SubChild.cs",
+              "RelativeDocumentMoniker": "Early\u0026Late-Binding\\SubChild.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\SubChild.cs",
+              "RelativeToolTip": "Early\u0026Late-Binding\\SubChild.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T04:15:50.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Rectangle.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\Rectangle.cs",
+              "RelativeDocumentMoniker": "Early\u0026Late-Binding\\Rectangle.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\Rectangle.cs",
+              "RelativeToolTip": "Early\u0026Late-Binding\\Rectangle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T04:15:45.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Parent.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\Parent.cs",
+              "RelativeDocumentMoniker": "Early\u0026Late-Binding\\Parent.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\Parent.cs",
+              "RelativeToolTip": "Early\u0026Late-Binding\\Parent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T04:15:38.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Geoshape.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\Geoshape.cs",
+              "RelativeDocumentMoniker": "Early\u0026Late-Binding\\Geoshape.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\Geoshape.cs",
+              "RelativeToolTip": "Early\u0026Late-Binding\\Geoshape.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T04:15:33.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Circle.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\Circle.cs",
+              "RelativeDocumentMoniker": "Early\u0026Late-Binding\\Circle.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\Circle.cs",
+              "RelativeToolTip": "Early\u0026Late-Binding\\Circle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T04:15:23.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Child.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\Child.cs",
+              "RelativeDocumentMoniker": "Early\u0026Late-Binding\\Child.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\Child.cs",
+              "RelativeToolTip": "Early\u0026Late-Binding\\Child.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T04:15:14.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\Program.cs",
+              "RelativeDocumentMoniker": "Early\u0026Late-Binding\\Program.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\Program.cs",
+              "RelativeToolTip": "Early\u0026Late-Binding\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T04:10:25.836Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

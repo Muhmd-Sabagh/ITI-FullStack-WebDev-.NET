@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-07\\early\u0026late-binding\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|solutionrelative:early\u0026late-binding\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-07\\early\u0026late-binding\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|solutionrelative:early\u0026late-binding\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-07\\early\u0026late-binding\\lateordynamicbinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|solutionrelative:early\u0026late-binding\\lateordynamicbinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-07\\early\u0026late-binding\\inheritanceexamplev03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|solutionrelative:early\u0026late-binding\\inheritanceexamplev03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-07\\early\u0026late-binding\\employeep2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|solutionrelative:early\u0026late-binding\\employeep2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-07\\early\u0026late-binding\\employeep1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|solutionrelative:early\u0026late-binding\\employeep1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|e:\\learning\\iti - fullstack webdev using dot net\\0- tasks and projects\\c#-oop\\day-07\\early\u0026late-binding\\earlyorstaticbinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A10927-25C7-4F3B-8E19-CD9FDBE774A9}|Early\u0026Late-Binding\\Early\u0026Late-Binding.csproj|solutionrelative:early\u0026late-binding\\earlyorstaticbinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Utility.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\Utility.cs",
+              "RelativeDocumentMoniker": "Early\u0026Late-Binding\\Utility.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\Utility.cs",
+              "RelativeToolTip": "Early\u0026Late-Binding\\Utility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T04:13:24.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LateOrDynamicBinding.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\LateOrDynamicBinding.cs",
+              "RelativeDocumentMoniker": "Early\u0026Late-Binding\\LateOrDynamicBinding.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\LateOrDynamicBinding.cs",
+              "RelativeToolTip": "Early\u0026Late-Binding\\LateOrDynamicBinding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T04:13:04.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InheritanceExampleV03.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\InheritanceExampleV03.cs",
+              "RelativeDocumentMoniker": "Early\u0026Late-Binding\\InheritanceExampleV03.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\InheritanceExampleV03.cs",
+              "RelativeToolTip": "Early\u0026Late-Binding\\InheritanceExampleV03.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T04:12:52.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeP2.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\EmployeeP2.cs",
+              "RelativeDocumentMoniker": "Early\u0026Late-Binding\\EmployeeP2.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\EmployeeP2.cs",
+              "RelativeToolTip": "Early\u0026Late-Binding\\EmployeeP2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T04:12:43.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\Program.cs",
+              "RelativeDocumentMoniker": "Early\u0026Late-Binding\\Program.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\Program.cs",
+              "RelativeToolTip": "Early\u0026Late-Binding\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T04:10:25.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeP1.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\EmployeeP1.cs",
+              "RelativeDocumentMoniker": "Early\u0026Late-Binding\\EmployeeP1.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\EmployeeP1.cs",
+              "RelativeToolTip": "Early\u0026Late-Binding\\EmployeeP1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T04:12:25.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EarlyOrStaticBinding.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\EarlyOrStaticBinding.cs",
+              "RelativeDocumentMoniker": "Early\u0026Late-Binding\\EarlyOrStaticBinding.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-07\\Early\u0026Late-Binding\\EarlyOrStaticBinding.cs",
+              "RelativeToolTip": "Early\u0026Late-Binding\\EarlyOrStaticBinding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T04:11:57.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

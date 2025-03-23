@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+{
+  "version": 2,
+  "dgSpecHash": "UA6Z39ic1x4=",
+  "success": true,
+  "projectFilePath": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-03\\TrayEncapsulation\\TryEncapsulation.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "UA6Z39ic1x4=",
+  "success": true,
+  "projectFilePath": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-03\\TrayEncapsulation\\TryEncapsulation.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> a9b7bec3ae9ffe66ace7ca5f825c2eee046168c2
+}

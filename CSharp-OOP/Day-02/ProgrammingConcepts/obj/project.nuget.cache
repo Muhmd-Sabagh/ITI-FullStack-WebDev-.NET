@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+{
+  "version": 2,
+  "dgSpecHash": "mjIR46jxLRQ=",
+  "success": true,
+  "projectFilePath": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-02\\ProgrammingConcepts\\ProgrammingConcepts.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "mjIR46jxLRQ=",
+  "success": true,
+  "projectFilePath": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\0- Tasks and Projects\\C#-OOP\\Day-02\\ProgrammingConcepts\\ProgrammingConcepts.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> a9b7bec3ae9ffe66ace7ca5f825c2eee046168c2
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack-Queue-Operator", "Stack-Queue-Operator\Stack-Queue-Operator.csproj", "{A536E4D9-2E9B-4EEF-8A90-2EB58793C809}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A536E4D9-2E9B-4EEF-8A90-2EB58793C809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A536E4D9-2E9B-4EEF-8A90-2EB58793C809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A536E4D9-2E9B-4EEF-8A90-2EB58793C809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A536E4D9-2E9B-4EEF-8A90-2EB58793C809}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF242F40-F5D1-4316-AEC9-1ACEAB760593}
+	EndGlobalSection
+EndGlobal
