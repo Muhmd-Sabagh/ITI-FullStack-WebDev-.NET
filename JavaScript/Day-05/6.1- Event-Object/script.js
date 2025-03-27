@@ -8,5 +8,15 @@ document.addEventListener("keydown", function (e) {
   var key = e.key;
   var asciiCode = key.charCodeAt(0);
 
-  alert(`Key: ${key}\nASCII Code: ${asciiCode}`);
+  alert(
+    `${
+      e.altKey
+        ? "Alt Key Pressed!\nASCII Code: 18"
+        : e.ctrlKey
+        ? "Shift Key Pressed!\nASCII Code: 17"
+        : e.shiftKey
+        ? "Shift Key Pressed!\nASCII Code: 16"
+        : `Key: ${key}\nASCII Code: ${asciiCode}`
+    }`
+  );
 });
