@@ -1,3 +1,7 @@
+/*
+	Traffic Light Game
+*/
+
 var lights = document.querySelectorAll(".light");
 var statusText = document.querySelector(".status");
 var states = ["STOP", "STEADY", "GO"];

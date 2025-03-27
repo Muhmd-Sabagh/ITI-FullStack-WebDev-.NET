@@ -1,4 +1,8 @@
-// Helper function to show/hide error messages
+/*
+	Registration Form Validation
+*/
+
+// Show/Hide error messages
 function showError(elementId, show) {
   var errorElement = document.getElementById(elementId);
   errorElement.style.display = show ? "block" : "none";

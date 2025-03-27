@@ -1,3 +1,7 @@
+/*
+	Auto Image Slider
+*/
+
 // Array of image paths
 var images = [
   "images/image1.png",

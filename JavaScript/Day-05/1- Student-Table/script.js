@@ -1,3 +1,8 @@
+/*
+	Student Information (Name, Age) Management Table
+	(Handle Dublicates)
+*/
+
 // Main
 var inputName = document.getElementById("name");
 var inputAge = document.getElementById("age");

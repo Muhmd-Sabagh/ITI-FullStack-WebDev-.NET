@@ -1,3 +1,7 @@
+/*
+	String Typing In A New Window
+*/
+
 var msg =
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. quod ipsum doloremque quas quos.";
 
