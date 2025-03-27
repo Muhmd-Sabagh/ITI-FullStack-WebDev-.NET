@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookies Management</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <table>
+        <colgroup>
+          <col width="120" />
+          <col width="300" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th colspan="2">Registration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><label>Name</label></td>
+            <td>
+              <input
+                type="text"
+                id="name"
+                onblur="validateName()"
+                placeholder="Enter Student Name"
+              />
+              <div class="error-message" id="name-error">Name is required.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><label>Age</label></td>
+            <td>
+              <input
+                type="number"
+                id="age"
+                onblur="validateAge()"
+                placeholder="Enter your age"
+              />
+              <div class="error-message" id="age-error">
+                Age is not valid (must be greater than 10).
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><label>Gender</label></td>
+            <td>
+              <input
+                type="radio"
+                name="gender"
+                value="male"
+                id="male"
+                onclick="validateGender()"
+              />
+              <label for="male"><img src="images/1.jpg" /></label>
+              <input
+                type="radio"
+                name="gender"
+                value="female"
+                id="female"
+                onclick="validateGender()"
+              />
+              <label for="female"><img src="images/2.jpg" /></label>
+              <div class="error-message" id="gender-error">
+                Please select your gender.
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><label>Favorite Color</label></td>
+            <td>
+              <select id="fav-color" onchange="validateColor()">
+                <option value="">Select Color</option>
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+              </select>
+              <div class="error-message" id="color-error">
+                Please select your favorite color.
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="buttons">
+              <button type="button" id="visit-btn" onclick="visit()">
+                Visit
+              </button>
+              <button type="button" id="reset-btn" onclick="resetForm()">
+                Reset
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
