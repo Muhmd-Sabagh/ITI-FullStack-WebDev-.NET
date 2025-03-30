@@ -1,0 +1,586 @@
+/* ======== global style ============ */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.btn {
+  background-color: #c59c84;
+  color: #fff;
+  padding: 25px 60px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* =============== header ============= */
+
+header {
+  background-color: #fff;
+}
+
+header .logo {
+  float: left;
+  margin: 30px 0px 0px 60px;
+}
+
+header nav {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul,
+.visit-us {
+  display: inline-block;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 0px 25px;
+}
+
+header ul li a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #101a31;
+}
+
+.visit-us {
+  background-color: #be9278;
+  color: #fff;
+  padding: 30px 65px;
+  margin-left: 80px;
+}
+
+/* ============ hero section ========= */
+
+.hero-section {
+  height: 850px;
+  background: linear-gradient(
+      to right,
+      rgba(16, 26, 48, 0.7) 0%,
+      rgba(16, 26, 48, 0.7) 12%,
+      #101a31 91%,
+      #101a31 100%
+    ),
+    url("images/h1_hero.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-section .hero-content {
+  position: absolute;
+  color: #fff;
+  left: 10%;
+  top: 20%;
+  width: 40%;
+}
+
+.hero-content img {
+  margin-bottom: 30px;
+}
+
+.hero-content h1 {
+  font-size: 76px;
+  line-height: 83.6px;
+  font-weight: 600;
+}
+
+.hero-content p {
+  width: 78%;
+  line-height: 30px;
+  margin: 20px 0px 30px 0px;
+}
+
+.hero-section .hero-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 750px;
+}
+
+.hero-img img {
+  height: 100%;
+  width: 660px;
+}
+
+/* =============== Offers =============== */
+
+.offers {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.offers .offer {
+  display: inline-block;
+  width: 33%;
+}
+
+.offer-img {
+  padding: 40px;
+}
+
+.offer img {
+  width: 100%;
+}
+
+.offer-content {
+  padding: 0px 40px;
+  position: relative;
+}
+
+.offer-content span {
+  width: 35px;
+  height: 35px;
+  background-color: #c6a16e;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  position: absolute;
+  left: -20px;
+  top: 1px;
+}
+
+.offer-content h3 {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 600;
+  color: #101a31;
+}
+
+.offer-content p {
+  line-height: 30px;
+  color: #101a31;
+  width: 85%;
+}
+
+/* =================== About =========== */
+
+.about {
+  width: 85%;
+  margin: 100px auto;
+  height: 800px;
+  position: relative;
+}
+
+.about-img {
+  position: absolute;
+  z-index: 5;
+  top: 15%;
+}
+
+.about-img img {
+  width: 660px;
+  height: 570px;
+}
+
+.about-content {
+  position: absolute;
+  background-color: #f2e1d9;
+  width: 70%;
+  right: 0;
+  height: 100%;
+}
+
+.about-cap {
+  position: absolute;
+  top: 25%;
+  left: 38%;
+}
+
+.about-cap h2 {
+  font-size: 56px;
+  color: #101a31;
+  font-weight: 600;
+  line-height: 67.2px;
+}
+
+.about-cap .first-p {
+  font-size: 18px;
+  color: #010a44;
+  line-height: 30px;
+  width: 80%;
+  margin-top: 30px;
+}
+
+.about-cap .second-p {
+  color: #10285d;
+  font-size: 14px;
+  line-height: 30px;
+  width: 80%;
+  margin: 20px 0px;
+}
+
+/* ============= Services ================= */
+
+.services-content,
+.services-container {
+  margin: 50px auto;
+  width: 80%;
+}
+
+.services-content h2 {
+  font-size: 53px;
+  font-weight: 600;
+  color: #101a31;
+  line-height: 1.4;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto 5px auto;
+}
+
+.services-content p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #101a31;
+  line-height: 30px;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto 15px auto;
+}
+
+.services-container .service {
+  display: inline-block;
+  width: 22%;
+  padding: 0 15px;
+  margin-bottom: 50px;
+}
+
+.service-img {
+  margin-bottom: 26px;
+}
+
+.service-content h4 {
+  font-size: 24px;
+  line-height: 45px;
+  font-weight: 600;
+  color: #101a31;
+  margin-bottom: 19px;
+}
+
+.service-content p {
+  font-size: 14px;
+  line-height: 1.9;
+  color: #101a31;
+}
+
+/* ============= Video ================= */
+
+.video-section {
+  position: relative;
+}
+
+.video-img {
+  height: 730px;
+  background-image: url("images/video-bg.png.webp");
+  background-position: center;
+}
+
+.play-btn {
+  background-color: rgba(190, 146, 120, 0.164);
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  position: absolute;
+  left: 43%;
+  top: 35%;
+}
+
+.play-btn a {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: rgb(190, 146, 120);
+  color: #fff;
+  font-weight: 900;
+  font-size: 28px;
+  display: inline-block;
+  position: absolute;
+  left: 28%;
+  top: 28%;
+  text-align: center;
+  line-height: 99px;
+  border: 6px #fff solid;
+}
+
+.play-btn a:hover {
+  background-color: #fff;
+  color: rgb(190, 146, 120);
+  text-decoration: none;
+}
+
+/* ================= Testimonial ============= */
+
+.testimonial {
+  margin: 70px 0 100px;
+}
+
+.testimonial .content-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.quotes {
+  position: relative;
+  padding: 50px 0 0;
+}
+
+.quotes-sign-img {
+  float: left;
+  z-index: 0;
+  position: relative;
+  left: -50px;
+}
+
+.quotes p {
+  font-size: 19px;
+  color: rgb(1, 10, 68);
+  line-height: 30.4px;
+  z-index: 2;
+  float: left;
+  position: relative;
+  top: -40px;
+  left: 30px;
+}
+
+.profile {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.profile-img {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.profile-info {
+  display: inline-block;
+  position: absolute;
+  top: 40px;
+}
+
+.profile-info h5 {
+  color: rgb(29, 37, 71);
+  font: 500 22px "Montserrat", sans-serif;
+  line-height: 33px;
+}
+
+.profile-info p {
+  color: rgb(100, 109, 119);
+  font: 400 14px "Montserrat", sans-serif;
+  line-height: 30px;
+}
+
+.quotes-nav {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
+
+.quotes-nav a {
+  color: rgb(201, 164, 142);
+  padding: 0 5px;
+  font-size: large;
+}
+
+.quotes-nav .active {
+  color: rgb(100, 109, 119);
+}
+
+.quotes-nav .arrow {
+  color: rgba(201, 164, 142, 0.507);
+  font-size: 20px;
+}
+
+.quotes-nav a:hover {
+  color: rgb(161, 123, 102);
+}
+
+hr {
+  border: none;
+  height: 3px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.226);
+}
+
+/* ============ Follow Us ============ */
+
+.follow-us {
+  margin-bottom: 100px;
+}
+
+.follow-us-content {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.follow-us-content h2 {
+  font-size: 53px;
+  font-weight: 600;
+  color: #101a31;
+  line-height: 1.4;
+  text-align: center;
+  margin: 0 auto 5px auto;
+}
+
+.follow-us-content p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #101a31;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 auto 15px auto;
+}
+
+.follow-us-imgs {
+  text-align: center;
+}
+
+.follow-us-imgs div {
+  display: inline-block;
+  padding: 15px;
+}
+
+/* ================= Footer ============= */
+
+footer {
+  background: url("images/footer-bg.png.webp") no-repeat center/cover;
+  height: 602px;
+  position: relative;
+}
+
+.map {
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-content {
+  position: absolute;
+  right: 0px;
+  top: 110px;
+  color: white;
+  width: 40%;
+}
+
+.footer-content .contact-us,
+.our-solutions {
+  display: inline-block;
+  width: 40%;
+  padding-right: 50px;
+}
+
+.contact-us img {
+  margin-bottom: 30px;
+}
+
+.contact-us p {
+  font-size: 16px;
+  line-height: 28.8px;
+  margin-bottom: 50px;
+}
+
+.contact-us #phone a {
+  color: rgb(190, 146, 120);
+  line-height: 39px;
+  font-size: 26px;
+  font-weight: 300;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.contact-us #email a {
+  color: rgb(190, 146, 120);
+  line-height: 21px;
+  font-size: 14px;
+  font-weight: 300;
+  display: inline-block;
+  padding-bottom: 40px;
+}
+
+.contact-us .social-media a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: rgb(25, 34, 67);
+  margin-right: 10px;
+  text-align: center;
+  line-height: 40px;
+  color: rgb(190, 146, 120);
+  font-weight: 800;
+}
+
+.contact-us .social-media a:hover {
+  text-decoration: none;
+  background-color: rgb(190, 146, 120);
+  color: white;
+}
+
+.our-solutions span {
+  display: block;
+  width: fit-content;
+  margin-bottom: 50px;
+  color: rgb(190, 146, 120);
+  line-height: 28.8px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.our-solutions {
+  float: right;
+}
+
+.our-solutions li {
+  padding-bottom: 15px;
+}
+
+.our-solutions a {
+  color: white;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.footer-content a:hover {
+  color: rgb(190, 146, 120);
+  text-decoration: underline;
+}
+
+.copy-rights {
+  margin-top: 135px;
+  font-size: 14px;
+  width: fit-content;
+}
+
+.copy-rights span {
+  color: rgb(190, 146, 120);
+}
