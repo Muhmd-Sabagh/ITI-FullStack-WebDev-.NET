@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Player</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>
+        <h1>Audio Player</h1>
+        <span id="track-title">Track Title</span>
+      </header>
+      <main>
+        <section class="controls">
+          <button id="prev-btn" class="control-btn">prev</button>
+          <button id="play-pause-btn" class="control-btn">play</button>
+          <button id="stop-btn" class="control-btn">stop</button>
+          <button id="next-btn" class="control-btn">next</button>
+        </section>
+        <section class="speed-control">
+          <label for="speed-list">Playback Speed</label>
+          <select id="speed-list">
+            <option value="0.5">0.5x</option>
+            <option value="0.75">0.75x</option>
+            <option value="1" selected>1x</option>
+            <option value="1.25">1.25x</option>
+            <option value="1.5">1.5x</option>
+            <option value="2">2x</option>
+          </select>
+        </section>
+        <section class="volume-control">
+          <button id="mute-btn" class="control-btn">mute</button>
+          <div class="volume-info">
+            <input
+              type="range"
+              id="volume-bar"
+              min="0"
+              max="1"
+              step="0.1"
+              value="0.7"
+            />
+            <span id="min-volume">min</span>
+            <span id="max-volume">max</span>
+          </div>
+        </section>
+        <section class="progress">
+          <input type="range" id="time-bar" min="0" />
+          <span id="current-time">00 : 00</span>
+          <span id="duration">00 : 00</span>
+          <div class="clear"></div>
+        </section>
+        <hr />
+        <section class="playlist">
+          <h2>Playlist</h2>
+          <hr />
+          <ul id="tracks"></ul>
+          <hr />
+        </section>
+
+        <audio id="audio"></audio>
+      </main>
+      <footer>
+        <p>This Audio Player is made with 🤍</p>
+      </footer>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
