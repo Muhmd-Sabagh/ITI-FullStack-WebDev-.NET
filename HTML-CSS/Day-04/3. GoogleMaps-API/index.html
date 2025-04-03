@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Simple Markers</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    Choose A Country:
+    <select id="country">
+      <option value="0" selected>Select Country</option>
+      <option>Egypt</option>
+      <option>Tunisia</option>
+      <option>Algeria</option>
+      <option>Syria</option>
+      <option>Yemen</option>
+    </select>
+    <div id="map"></div>
+
+    <!-- 
+      The `defer` attribute causes the script to execute after the full HTML
+      document has been parsed. For non-blocking uses, avoiding race conditions,
+      and consistent behavior across browsers, consider loading using Promises. See
+      https://developers.google.com/maps/documentation/javascript/load-maps-js-api
+      for more information.
+      -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
