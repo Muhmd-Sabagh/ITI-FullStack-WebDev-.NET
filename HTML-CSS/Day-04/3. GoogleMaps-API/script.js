@@ -16,7 +16,6 @@ country.addEventListener("change", function () {
     xhr.onreadystatechange = function () {
       if (xhr.readyState == 4 && xhr.status == 200) {
         var countryInfo = JSON.parse(xhr.response);
-        console.log(countryInfo);
         initMap(countryInfo[0].lat, countryInfo[0].lon);
       }
     };
@@ -26,14 +25,12 @@ country.addEventListener("change", function () {
 // Display the selected country map
 function initMap(myLat = 0, myLng = 0) {
   if (myLat === 0 && myLng === 0) {
-    console.log(myLat, myLng);
     const myLatLng = { lat: Number(myLat), lng: Number(myLng) };
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 2,
       center: myLatLng,
     });
   } else {
-    console.log(myLat, myLng);
     const myLatLng = { lat: Number(myLat), lng: Number(myLng) };
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 5,
