@@ -1,0 +1,28 @@
+/* Add the font */
+@font-face {
+  font-family: "bay-tavern";
+  src: url("fonts/bay-tavern-s.ttf");
+}
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+  background: linear-gradient(#1e1e1e, #3a3a3a);
+}
+
+/* SVG Style */
+svg {
+  border: 4px red solid;
+  border-radius: 40px;
+  background-color: white;
+}
+
+/* Text Style */
+text {
+  font: 400 36px "bay-tavern";
+}
