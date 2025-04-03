@@ -1,10 +1,12 @@
 var country = document.getElementById("country");
 
+// Get the Coords of the country when selected
 country.addEventListener("change", function () {
   if (country.value == 0) {
     initMap();
   } else {
     var xhr = new XMLHttpRequest();
+    // Using of geocoding API to get the country info (including its Latitude and Longitude)
     xhr.open(
       "GET",
       `https://nominatim.openstreetmap.org/search?format=json&q=${country.value}`
@@ -21,6 +23,7 @@ country.addEventListener("change", function () {
   }
 });
 
+// Display the selected country map
 function initMap(myLat = 0, myLng = 0) {
   if (myLat === 0 && myLng === 0) {
     console.log(myLat, myLng);
