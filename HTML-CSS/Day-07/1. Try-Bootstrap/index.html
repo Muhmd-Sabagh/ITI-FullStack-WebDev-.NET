@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ListRace</title>
+    <link rel="icon" href="assets/logo/favicon.png" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/fonts.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid px-0">
+      <!-- Header -->
+      <header class="d-flex justify-content-between align-items-center">
+        <div class="header-top-left">
+          <ul class="list-unstyled d-flex mb-0">
+            <li class="px-3 py-2">
+              <select name="language" id="language">
+                <option value="default">EN</option>
+                <option value="arabic">AR</option>
+                <option value="french">FR</option>
+              </select>
+            </li>
+            <li class="px-3 py-2">
+              <select name="currency" id="currency">
+                <option value="default">USD</option>
+                <option value="sar">SAR</option>
+                <option value="eur">EUR</option>
+              </select>
+            </li>
+            <li class="px-3 py-2">
+              <a href="#"><i class="bi bi-search"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-top-right">
+          <ul class="list-unstyled d-flex mb-0">
+            <li class="px-3 py-2">+1 222 777 6565</li>
+            <li class="px-3 py-2"><a href="#">Sign in</a></li>
+            <li class="px-3 py-2"><a href="#">Register</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <!-- Navbar -->
+      <nav class="container-fluid navbar navbar-expand-lg bg-body sticky-top">
+        <div class="container-fluid mx-5">
+          <a class="navbar-brand text-capitalize fw-bolder" href="#"
+            >List<span>Race</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
+              <li class="nav-item">
+                <a class="nav-link p-lg-4" href="#home">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-lg-4" href="#works">how it works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-lg-4" href="#explore">explore</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-lg-4" href="#review">review</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-lg-4" href="#blog">blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-lg-4" href="#contact">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Hero Section -->
+      <section
+        id="home"
+        class="hero container-fluid d-flex flex-column vh-100 gap-4 text-center justify-content-center align-content-center"
+      >
+        <h2 class="z-1 fw-bold text-uppercase">
+          best place to find and explore<br />
+          that all you need
+        </h2>
+        <p class="z-1 mb-5">
+          Find Best Place, Restaurant, Hotel, Real State and many more think in
+          just One click
+        </p>
+        <div
+          class="search-wrapper container-sm z-1 d-flex flex-column flex-lg-row text-center align-self-center w-75 gap-4"
+        >
+          <div class="input-group d-flex flex-column flex-lg-row">
+            <span class="input-group-text bg-body p-4">What?</span>
+            <input
+              type="text"
+              class="form-control"
+              id="InputGroup1"
+              placeholder="Ex: Place, Resturent, Food, Automobile"
+            />
+            <span class="input-group-text bg-body"
+              ><i class="bi bi-list-ul"></i
+            ></span>
+            <span class="input-group-text bg-body p-4 border-start"
+              >Location</span
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="InputGroup2"
+              placeholder="Ex: London, Newyork, Rome"
+            />
+            <span class="input-group-text bg-body"
+              ><i class="bi bi-crosshair"></i
+            ></span>
+          </div>
+          <a
+            href="#"
+            class="btn btn-danger px-5 py-4 d-flex gap-2 align-self-center"
+          >
+            Search <i class="bi bi-search px-2 d-inline"></i>
+          </a>
+        </div>
+      </section>
+    </div>
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html>
