@@ -89,51 +89,152 @@
         </div>
       </nav>
       <!-- Hero Section -->
-      <section
-        id="home"
-        class="hero container-fluid d-flex flex-column vh-100 gap-4 text-center justify-content-center align-content-center"
-      >
-        <h2 class="z-1 fw-bold text-uppercase">
-          best place to find and explore<br />
-          that all you need
-        </h2>
-        <p class="z-1 mb-5">
-          Find Best Place, Restaurant, Hotel, Real State and many more think in
-          just One click
-        </p>
-        <div
-          class="search-wrapper container-sm z-1 d-flex flex-column flex-lg-row text-center align-self-center w-75 gap-4"
-        >
-          <div class="input-group d-flex flex-column flex-lg-row">
-            <span class="input-group-text bg-body p-4">What?</span>
-            <input
-              type="text"
-              class="form-control"
-              id="InputGroup1"
-              placeholder="Ex: Place, Resturent, Food, Automobile"
-            />
-            <span class="input-group-text bg-body"
-              ><i class="bi bi-list-ul"></i
-            ></span>
-            <span class="input-group-text bg-body p-4 border-start"
-              >Location</span
-            >
-            <input
-              type="text"
-              class="form-control"
-              id="InputGroup2"
-              placeholder="Ex: London, Newyork, Rome"
-            />
-            <span class="input-group-text bg-body"
-              ><i class="bi bi-crosshair"></i
-            ></span>
-          </div>
-          <a
-            href="#"
-            class="btn btn-danger px-5 py-4 d-flex gap-2 align-self-center"
+      <section id="home" class="hero-section position-relative">
+        <div class="container z-1">
+          <div
+            class="row min-vh-100 justify-content-center align-items-center text-center text-white py-5"
           >
-            Search <i class="bi bi-search px-2 d-inline"></i>
-          </a>
+            <div class="col-12 col-lg-10">
+              <h2 class="display-5 fw-bold text-uppercase mb-4">
+                best place to find and explore<br />
+                that all you need
+              </h2>
+
+              <p class="mb-5">
+                Find Best Place, Restaurant, Hotel, Real State and many more
+                think in just One click
+              </p>
+
+              <div
+                class="search-form w-100 bg-white rounded-3 p-3 shadow d-inline-block"
+              >
+                <div
+                  class="d-flex flex-column flex-lg-row align-items-center gap-3"
+                >
+                  <!-- Input Groups Container -->
+                  <div class="d-flex flex-column flex-md-row gap-3 w-100">
+                    <!-- What Input -->
+                    <div class="input-group flex-grow-1">
+                      <span
+                        class="input-group-text bg-transparent border-0 ps-3 pe-0 fw-medium"
+                      >
+                        <span class="d-none d-sm-inline">What?</span>
+                        <span class="d-inline d-sm-none"
+                          ><i class="bi bi-search"></i
+                        ></span>
+                      </span>
+                      <input
+                        type="text"
+                        class="form-control border-0 ps-1 py-3"
+                        placeholder="Ex: Place, Restaurant, Food"
+                      />
+                      <span class="input-group-text bg-transparent border-0">
+                        <i class="bi bi-list-ul"></i>
+                      </span>
+                    </div>
+
+                    <!-- Location Input -->
+                    <div class="input-group flex-grow-1">
+                      <span
+                        class="input-group-text bg-transparent border-0 ps-3 pe-0 fw-medium"
+                      >
+                        <span class="d-none d-sm-inline">Location</span>
+                        <span class="d-inline d-sm-none"
+                          ><i class="bi bi-geo-alt"></i
+                        ></span>
+                      </span>
+                      <input
+                        type="text"
+                        class="form-control border-0 ps-1 py-3"
+                        placeholder="Ex: London, Newyork, Rome"
+                      />
+                      <span class="input-group-text bg-transparent border-0">
+                        <i class="bi bi-crosshair"></i>
+                      </span>
+                    </div>
+                  </div>
+
+                  <!-- Search Button -->
+                  <a
+                    href="#"
+                    class="btn btn-danger px-5 py-3 d-flex align-items-center gap-2 flex-shrink-0"
+                  >
+                    <span>Search</span>
+                    <i class="bi bi-search"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Category Cards -->
+            <div
+              class="category-cards col-12 d-flex flex-wrap justify-content-center gap-3 mt-4"
+            >
+              <!-- Restaurant Card -->
+              <div
+                class="category-card bg-white col-2 text-black rounded-3 p-3 px-4 border border-white border-opacity-25"
+              >
+                <div class="d-flex align-items-center gap-2">
+                  <i class="bi bi-egg-fried fs-5"></i>
+                  <div>
+                    <h6 class="mb-0">Restaurant</h6>
+                    <small>150 listings</small>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Destination Card -->
+              <div
+                class="category-card bg-white col-2 text-black rounded-3 p-3 px-4 border border-white border-opacity-25"
+              >
+                <div class="d-flex align-items-center gap-2">
+                  <i class="bi bi-airplane fs-5"></i>
+                  <div>
+                    <h6 class="mb-0">Destination</h6>
+                    <small>214 listings</small>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Hotels Card -->
+              <div
+                class="category-card bg-white col-2 text-black rounded-3 p-3 px-4 border border-white border-opacity-25"
+              >
+                <div class="d-flex align-items-center gap-2">
+                  <i class="bi bi-building fs-5"></i>
+                  <div>
+                    <h6 class="mb-0">Hotels</h6>
+                    <small>185 listings</small>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Healthcare Card -->
+              <div
+                class="category-card bg-white col-2 text-black rounded-3 p-3 px-4 border border-white border-opacity-25"
+              >
+                <div class="d-flex align-items-center gap-2">
+                  <i class="bi bi-heart-pulse fs-5"></i>
+                  <div>
+                    <h6 class="mb-0">Healthcare</h6>
+                    <small>200 listings</small>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Automation Card -->
+              <div
+                class="category-card bg-white col-2 text-black rounded-3 p-3 px-4 border border-white border-opacity-25"
+              >
+                <div class="d-flex align-items-center gap-2">
+                  <i class="bi bi-car-front-fill fs-5"></i>
+                  <div>
+                    <h6 class="mb-0">Automation</h6>
+                    <small>120 listings</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
