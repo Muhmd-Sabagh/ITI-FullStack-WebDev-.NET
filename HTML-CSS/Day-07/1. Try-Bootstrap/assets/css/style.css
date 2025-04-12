@@ -12,3 +12,33 @@ a:focus {
   color: inherit;
   transition: all 0.5s ease-in-out;
 }
+
+/* Media Query */
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+
+  .fund-img,
+  .react-img {
+    width: 50%;
+  }
+
+  #map {
+    width: 50%;
+  }
+}
+
+/* Map Style */
+#map {
+  height: 300px;
+  border-radius: 7px;
+}
+
+/* Back To Top Btn */
+#back-to-top {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  z-index: 9999;
+}
