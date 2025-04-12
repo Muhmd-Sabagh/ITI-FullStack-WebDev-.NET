@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Library</title>
+    <link rel="stylesheet" href="css/books-add.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form name="register" action="#" method="get">
+        <table>
+          <colgroup>
+            <col width="150" />
+            <col width="300" />
+          </colgroup>
+          <thead>
+            <tr>
+              <th colspan="2">Book Info Form</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><label for="title">Book Title</label></td>
+              <td>
+                <input
+                  id="title"
+                  type="text"
+                  placeholder="Enter book title"
+                  onblur="validateTitle()"
+                />
+                <div class="error-message" id="title-error">
+                  Title is required.
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="price">Price</label></td>
+              <td>
+                <input
+                  id="price"
+                  type="number"
+                  placeholder="Enter book brice"
+                  onblur="validatePrice()"
+                />
+                <div class="error-message" id="price-error">
+                  Price must be grater than 0.
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="author-name">Author Name</label></td>
+              <td>
+                <input
+                  id="author-name"
+                  type="text"
+                  placeholder="Enter author name"
+                  onblur="validateAuthorName()"
+                />
+                <div class="error-message" id="author-name-error">
+                  Title is required.
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="author-email">Author Email</label></td>
+              <td>
+                <input
+                  id="author-email"
+                  type="text"
+                  placeholder="Enter author email"
+                  oninput="validateAuthorEmail()"
+                />
+                <div class="error-message" id="author-email-error">
+                  Email is not valid.
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" class="buttons">
+                <button
+                  type="button"
+                  id="submit-btn"
+                  onclick="validateAndAdd()"
+                >
+                  Add
+                </button>
+                <button type="button" id="reset-btn" onclick="resetForm()">
+                  Reset
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
+    <script src="js/books-add.js"></script>
+  </body>
+</html>

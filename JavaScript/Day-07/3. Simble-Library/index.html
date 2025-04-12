@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Library</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Simple Library</h1>
+      <h3>How many Books?</h3>
+      <input
+        type="number"
+        id="books-num"
+        placeholder="Enter num of books"
+        oninput="validateNumOfBooks()"
+      />
+      <button type="button" id="ok-btn" onclick="addBooks()">OK</button>
+      <div class="error-message" id="books-num-error">
+        Books # must be grater than 0
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
