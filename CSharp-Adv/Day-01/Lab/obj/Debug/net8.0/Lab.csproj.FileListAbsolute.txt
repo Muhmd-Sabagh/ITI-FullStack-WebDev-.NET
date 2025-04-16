@@ -1,0 +1,15 @@
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-01\Lab\bin\Debug\net8.0\Lab.exe
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-01\Lab\bin\Debug\net8.0\Lab.deps.json
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-01\Lab\bin\Debug\net8.0\Lab.runtimeconfig.json
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-01\Lab\bin\Debug\net8.0\Lab.dll
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-01\Lab\bin\Debug\net8.0\Lab.pdb
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-01\Lab\obj\Debug\net8.0\Lab.GeneratedMSBuildEditorConfig.editorconfig
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-01\Lab\obj\Debug\net8.0\Lab.AssemblyInfoInputs.cache
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-01\Lab\obj\Debug\net8.0\Lab.AssemblyInfo.cs
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-01\Lab\obj\Debug\net8.0\Lab.csproj.CoreCompileInputs.cache
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-01\Lab\obj\Debug\net8.0\Lab.sourcelink.json
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-01\Lab\obj\Debug\net8.0\Lab.dll
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-01\Lab\obj\Debug\net8.0\refint\Lab.dll
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-01\Lab\obj\Debug\net8.0\Lab.pdb
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-01\Lab\obj\Debug\net8.0\Lab.genruntimeconfig.cache
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-01\Lab\obj\Debug\net8.0\ref\Lab.dll
