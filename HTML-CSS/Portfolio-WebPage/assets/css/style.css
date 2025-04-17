@@ -42,7 +42,6 @@ h6 {
   color: #43485c;
   margin: 0;
   text-transform: uppercase;
-  text-align: center;
 }
 
 p {
@@ -61,7 +60,8 @@ p {
   font-size: 24px;
   font-weight: 600;
   line-height: 26.4px;
-  margin-bottom: 50px;
+  margin: 50px 0;
+  text-align: center;
 }
 
 /* Header Styling */
@@ -164,18 +164,16 @@ header .hero .hero-content {
 
 /* About Section */
 .about {
-  position: relative;
   padding: 50px;
   text-align: center;
   height: 800px;
 
   .container {
     position: relative;
-    width: 100%;
     > hr {
       height: 2px;
-      background-color: #b6b6b615;
-      margin: 20px auto;
+      background-color: #b6b6b62d;
+      border: none;
     }
     .content {
       position: relative;
@@ -269,6 +267,129 @@ header .hero .hero-content {
               }
             }
           }
+        }
+      }
+    }
+  }
+}
+
+/* Education Section */
+#education {
+  padding: 50px;
+  .container {
+    margin-top: 100px;
+    > hr {
+      height: 2px;
+      background-color: #b6b6b62d;
+      border: none;
+    }
+    .content {
+      position: relative;
+      margin-top: 80px;
+      .edu-card {
+        width: 33%;
+        display: inline-block;
+        .edu-time {
+          h3 {
+            font-size: 16px;
+            font-weight: 400;
+            color: #43485c;
+            margin-bottom: 10px;
+          }
+          h4 {
+            font-size: 16px;
+            font-weight: 300;
+            color: #636a82;
+            margin-bottom: 20px;
+            text-transform: capitalize;
+          }
+          .horizontal-line {
+            position: relative;
+            i {
+              /* position: absolute; */
+              display: inline-block;
+              color: #db35f9;
+              font-size: 10px;
+            }
+            span {
+              display: inline-block;
+              width: 96%;
+              height: 1px;
+              background-color: rgba(178, 193, 206, 0.664);
+              margin-bottom: 3px;
+            }
+            span.last {
+              width: 25%;
+            }
+          }
+          .edu-details {
+            padding: 25px 0;
+            h3 {
+              font-size: 16px;
+              font-weight: 400;
+              color: #43485c;
+            }
+            h5 {
+              font-size: 14px;
+              font-weight: 300;
+              color: #636a82;
+              text-transform: capitalize;
+            }
+            p {
+              font-size: 14px;
+              font-weight: 400;
+              color: #999fb3;
+              margin-top: 10px;
+              width: 83%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Skills Section */
+#skills {
+  position: relative;
+  padding: 30px 50px;
+  .container {
+    /* margin: 100px 0 30px; */
+    > hr {
+      height: 2px;
+      background-color: #b6b6b62d;
+      border: none;
+    }
+    .content {
+      margin: 80px 0;
+      .skill-card {
+        width: 49%;
+        margin-bottom: 30px;
+        padding: 0 30px 0 20px;
+        display: inline-block;
+        h3 {
+          font-size: 16px;
+          font-weight: 400;
+          color: #676a81;
+          margin-bottom: 10px;
+        }
+        .bar {
+          width: 88%;
+          height: 8px;
+          background-color: #e6ecf3;
+          border-radius: 5px;
+          display: inline-block;
+          margin-right: 20px;
+          .progress-bar {
+            height: 8px;
+            background-color: #b235f8;
+            border-radius: 5px;
+          }
+        }
+        span {
+          font-size: 16px;
+          font-weight: 500;
+          color: #a606c3;
         }
       }
     }
