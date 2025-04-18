@@ -1,0 +1,123 @@
+/* Variables */
+:root {
+  --bs-primary: #714b67;
+  --bs-secondary: #8a8a8a;
+  --bs-success: #28a745;
+  --bs-danger: #dc3545;
+  --bs-warning: #fd7e14;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+
+  --bs-form-valid-color: #28a745;
+  --bs-form-valid-border-color: #28a745;
+  --bs-form-invalid-color: #dc3545;
+  --bs-form-invalid-border-color: #dc3545;
+}
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--bs-light);
+  color: var(--bs-dark);
+  line-height: 1.6;
+}
+
+/* Form Styles */
+.container {
+  padding: 20px;
+}
+
+.login-card,
+.register-card {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.login-card:hover,
+.register-card:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+  transform: translateY(-5px);
+}
+
+.form-label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.input-group-text {
+  background-color: var(--bs-light);
+  color: var(--bs-primary);
+}
+
+.form-control {
+  padding: 0.75rem 1rem;
+  border-left: 0;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: var(--bs-primary);
+}
+
+.form-control.is-valid,
+.was-validated .form-control:valid {
+  background-image: none;
+  padding-right: 1rem;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+  background-image: none;
+  padding-right: 1rem;
+}
+
+.invalid-feedback {
+  font-size: 0.85rem;
+}
+
+.toggle-password {
+  cursor: pointer;
+  border-color: #dee2e6;
+}
+
+.toggle-password:hover {
+  background-color: var(--bs-light);
+  color: var(--bs-dark);
+}
+
+#login-password:disabled,
+#login-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* Submit Button */
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:disabled {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.btn-primary:hover {
+  background-color: #5a3a52;
+  border-color: #5a3a52;
+  transform: translateY(-2px);
+}
