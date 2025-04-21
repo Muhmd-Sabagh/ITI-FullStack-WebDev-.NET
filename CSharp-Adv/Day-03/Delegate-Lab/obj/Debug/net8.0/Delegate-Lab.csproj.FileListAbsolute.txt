@@ -1,0 +1,15 @@
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-03\Delegate-Lab\bin\Debug\net8.0\Delegate-Lab.exe
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-03\Delegate-Lab\bin\Debug\net8.0\Delegate-Lab.deps.json
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-03\Delegate-Lab\bin\Debug\net8.0\Delegate-Lab.runtimeconfig.json
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-03\Delegate-Lab\bin\Debug\net8.0\Delegate-Lab.dll
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-03\Delegate-Lab\bin\Debug\net8.0\Delegate-Lab.pdb
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-03\Delegate-Lab\obj\Debug\net8.0\Delegate-Lab.GeneratedMSBuildEditorConfig.editorconfig
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-03\Delegate-Lab\obj\Debug\net8.0\Delegate-Lab.AssemblyInfoInputs.cache
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-03\Delegate-Lab\obj\Debug\net8.0\Delegate-Lab.AssemblyInfo.cs
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-03\Delegate-Lab\obj\Debug\net8.0\Delegate-Lab.csproj.CoreCompileInputs.cache
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-03\Delegate-Lab\obj\Debug\net8.0\Delegate-Lab.sourcelink.json
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-03\Delegate-Lab\obj\Debug\net8.0\Delegate-Lab.dll
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-03\Delegate-Lab\obj\Debug\net8.0\refint\Delegate-Lab.dll
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-03\Delegate-Lab\obj\Debug\net8.0\Delegate-Lab.pdb
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-03\Delegate-Lab\obj\Debug\net8.0\Delegate-Lab.genruntimeconfig.cache
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-03\Delegate-Lab\obj\Debug\net8.0\ref\Delegate-Lab.dll

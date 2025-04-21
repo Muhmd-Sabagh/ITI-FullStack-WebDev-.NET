@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\CSharp-Adv\\Day-03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41111A2C-C2CF-4243-A1D2-E066D04F6226}|Delegate-Lab\\Delegate-Lab.csproj|e:\\learning\\iti - fullstack webdev using dot net\\projects-tasks\\csharp-adv\\day-03\\delegate-lab\\libraryengin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41111A2C-C2CF-4243-A1D2-E066D04F6226}|Delegate-Lab\\Delegate-Lab.csproj|solutionrelative:delegate-lab\\libraryengin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41111A2C-C2CF-4243-A1D2-E066D04F6226}|Delegate-Lab\\Delegate-Lab.csproj|e:\\learning\\iti - fullstack webdev using dot net\\projects-tasks\\csharp-adv\\day-03\\delegate-lab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41111A2C-C2CF-4243-A1D2-E066D04F6226}|Delegate-Lab\\Delegate-Lab.csproj|solutionrelative:delegate-lab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\CSharp-Adv\\Day-03\\Delegate-Lab\\Program.cs",
+              "RelativeDocumentMoniker": "Delegate-Lab\\Program.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\CSharp-Adv\\Day-03\\Delegate-Lab\\Program.cs",
+              "RelativeToolTip": "Delegate-Lab\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAMzMzMzPzvx8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T13:46:57.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LibraryEngin.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\CSharp-Adv\\Day-03\\Delegate-Lab\\LibraryEngin.cs",
+              "RelativeDocumentMoniker": "Delegate-Lab\\LibraryEngin.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\CSharp-Adv\\Day-03\\Delegate-Lab\\LibraryEngin.cs",
+              "RelativeToolTip": "Delegate-Lab\\LibraryEngin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T13:46:38.435Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
