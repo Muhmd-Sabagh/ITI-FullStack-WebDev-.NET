@@ -1,0 +1,15 @@
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-04\EventHandler\bin\Debug\net8.0\EventHandler.exe
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-04\EventHandler\bin\Debug\net8.0\EventHandler.deps.json
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-04\EventHandler\bin\Debug\net8.0\EventHandler.runtimeconfig.json
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-04\EventHandler\bin\Debug\net8.0\EventHandler.dll
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-04\EventHandler\bin\Debug\net8.0\EventHandler.pdb
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-04\EventHandler\obj\Debug\net8.0\EventHandler.GeneratedMSBuildEditorConfig.editorconfig
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-04\EventHandler\obj\Debug\net8.0\EventHandler.AssemblyInfoInputs.cache
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-04\EventHandler\obj\Debug\net8.0\EventHandler.AssemblyInfo.cs
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-04\EventHandler\obj\Debug\net8.0\EventHandler.csproj.CoreCompileInputs.cache
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-04\EventHandler\obj\Debug\net8.0\EventHandler.sourcelink.json
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-04\EventHandler\obj\Debug\net8.0\EventHandler.dll
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-04\EventHandler\obj\Debug\net8.0\refint\EventHandler.dll
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-04\EventHandler\obj\Debug\net8.0\EventHandler.pdb
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-04\EventHandler\obj\Debug\net8.0\EventHandler.genruntimeconfig.cache
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\CSharp-Adv\Day-04\EventHandler\obj\Debug\net8.0\ref\EventHandler.dll

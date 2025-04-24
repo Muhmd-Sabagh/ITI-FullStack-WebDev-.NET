@@ -5,6 +5,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{D5EE2B88-29DB-4848-9BA8-2B1C3ADF091F}|EventHandler\\EventHandler.csproj|e:\\learning\\iti - fullstack webdev using dot net\\projects-tasks\\csharp-adv\\day-04\\eventhandler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5EE2B88-29DB-4848-9BA8-2B1C3ADF091F}|EventHandler\\EventHandler.csproj|solutionrelative:eventhandler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5EE2B88-29DB-4848-9BA8-2B1C3ADF091F}|EventHandler\\EventHandler.csproj|e:\\learning\\iti - fullstack webdev using dot net\\projects-tasks\\csharp-adv\\day-04\\eventhandler\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5EE2B88-29DB-4848-9BA8-2B1C3ADF091F}|EventHandler\\EventHandler.csproj|solutionrelative:eventhandler\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5EE2B88-29DB-4848-9BA8-2B1C3ADF091F}|EventHandler\\EventHandler.csproj|e:\\learning\\iti - fullstack webdev using dot net\\projects-tasks\\csharp-adv\\day-04\\eventhandler\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5EE2B88-29DB-4848-9BA8-2B1C3ADF091F}|EventHandler\\EventHandler.csproj|solutionrelative:eventhandler\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5EE2B88-29DB-4848-9BA8-2B1C3ADF091F}|EventHandler\\EventHandler.csproj|e:\\learning\\iti - fullstack webdev using dot net\\projects-tasks\\csharp-adv\\day-04\\eventhandler\\layoffcause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5EE2B88-29DB-4848-9BA8-2B1C3ADF091F}|EventHandler\\EventHandler.csproj|solutionrelative:eventhandler\\layoffcause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5EE2B88-29DB-4848-9BA8-2B1C3ADF091F}|EventHandler\\EventHandler.csproj|e:\\learning\\iti - fullstack webdev using dot net\\projects-tasks\\csharp-adv\\day-04\\eventhandler\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5EE2B88-29DB-4848-9BA8-2B1C3ADF091F}|EventHandler\\EventHandler.csproj|solutionrelative:eventhandler\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5EE2B88-29DB-4848-9BA8-2B1C3ADF091F}|EventHandler\\EventHandler.csproj|e:\\learning\\iti - fullstack webdev using dot net\\projects-tasks\\csharp-adv\\day-04\\eventhandler\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5EE2B88-29DB-4848-9BA8-2B1C3ADF091F}|EventHandler\\EventHandler.csproj|solutionrelative:eventhandler\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,9 +52,74 @@
               "RelativeDocumentMoniker": "EventHandler\\Program.cs",
               "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\CSharp-Adv\\Day-04\\EventHandler\\Program.cs",
               "RelativeToolTip": "EventHandler\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAqwGIAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T13:28:08.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employees.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\CSharp-Adv\\Day-04\\EventHandler\\Employees.cs",
+              "RelativeDocumentMoniker": "EventHandler\\Employees.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\CSharp-Adv\\Day-04\\EventHandler\\Employees.cs",
+              "RelativeToolTip": "EventHandler\\Employees.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T13:43:12.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\CSharp-Adv\\Day-04\\EventHandler\\Employee.cs",
+              "RelativeDocumentMoniker": "EventHandler\\Employee.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\CSharp-Adv\\Day-04\\EventHandler\\Employee.cs",
+              "RelativeToolTip": "EventHandler\\Employee.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwDIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T13:29:47.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Department.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\CSharp-Adv\\Day-04\\EventHandler\\Department.cs",
+              "RelativeDocumentMoniker": "EventHandler\\Department.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\CSharp-Adv\\Day-04\\EventHandler\\Department.cs",
+              "RelativeToolTip": "EventHandler\\Department.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwCMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T13:40:01.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Club.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\CSharp-Adv\\Day-04\\EventHandler\\Club.cs",
+              "RelativeDocumentMoniker": "EventHandler\\Club.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\CSharp-Adv\\Day-04\\EventHandler\\Club.cs",
+              "RelativeToolTip": "EventHandler\\Club.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwB8AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T13:42:30.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LayOffCause.cs",
+              "DocumentMoniker": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\CSharp-Adv\\Day-04\\EventHandler\\LayOffCause.cs",
+              "RelativeDocumentMoniker": "EventHandler\\LayOffCause.cs",
+              "ToolTip": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\CSharp-Adv\\Day-04\\EventHandler\\LayOffCause.cs",
+              "RelativeToolTip": "EventHandler\\LayOffCause.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T13:38:12.044Z",
               "EditorCaption": ""
             }
           ]
