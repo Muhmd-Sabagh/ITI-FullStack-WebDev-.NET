@@ -1,4 +1,4 @@
-/* Responsive Adjustments */
+/* Registeration Page */
 @media (max-width: 576px) {
   .register {
     padding: 1.5rem !important;
@@ -11,11 +11,18 @@
 }
 
 @media (max-width: 768px) {
-  .row {
-    flex-direction: column;
-  }
-
-  .col-md-6 {
+  .form-floating.categories,
+  .form-floating.sorting,
+  .form-floating.filter {
     width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Home Page */
+/* Navbar */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    padding-bottom: 1rem;
   }
 }
