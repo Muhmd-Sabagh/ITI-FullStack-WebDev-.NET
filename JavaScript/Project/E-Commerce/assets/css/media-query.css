@@ -26,3 +26,21 @@
     padding-bottom: 1rem;
   }
 }
+
+/* Cart and product details overlay */
+@media (max-width: 768px) {
+  .overlay-content {
+    width: 95%;
+    margin: 10px auto;
+    padding: 15px;
+  }
+
+  #cartItems,
+  .product-detail {
+    max-height: 70vh;
+  }
+
+  .product-detail .row {
+    flex-direction: column;
+  }
+}

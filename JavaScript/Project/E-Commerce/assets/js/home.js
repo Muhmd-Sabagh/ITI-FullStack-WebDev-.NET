@@ -1,31 +1,11 @@
-document.addEventListener("DOMContentLoaded", function () {
-  // Function to get a specific cookie by name
-  function getCookie(name) {
-    const nameEQ = name + "=";
-    const userCookie = document.cookie
-      .split(";")
-      .map((c) => c.trim())
-      .find((c) => c.startsWith(nameEQ));
-    return userCookie ? userCookie.substring(nameEQ.length) : null;
-  }
+// Importing needed functions
+import { openProductDetailOverlay } from "./product.js";
 
+document.addEventListener("DOMContentLoaded", function () {
   // Display username in the navbar
   const displayUsernameElement = document.getElementById("displayUsername");
-  const userSessionCookie = getCookie("userSession");
-  let currentUsername = null;
-
-  if (userSessionCookie) {
-    try {
-      const userData = JSON.parse(userSessionCookie);
-      currentUsername = userData.name;
-      displayUsernameElement.textContent = `${userData.name}!`;
-    } catch (error) {
-      console.error("Error parsing userSession cookie:", error);
-      displayUsernameElement.textContent = "Welcome!";
-    }
-  } else {
-    window.location.href = "./registration.html";
-  }
+  let currentUsername = getCurrentUsername();
+  displayUsernameElement.textContent = `${currentUsername}!`;
 
   // Hero Slider
   const slides = document.querySelectorAll(".hero-slide");
@@ -122,14 +102,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     products.forEach((product) => {
-      const cartItems = getCartItems();
+      const cartItems = getCartItems(currentUsername);
       const cartQuantity = cartItems[product.id] || 0;
 
       const productCard = document.createElement("div");
       productCard.className = "col-lg-3 col-md-4 col-6";
       productCard.innerHTML = `
 							<div class="card product-card h-100 border-0 shadow-sm">
-									<a href="product.html?id=${product.id}">
+									<a href="home.html?product_id=${product.id}">
 											<img src="${product.image}" class="card-img-top" alt="${product.name}">
 											<div class="card-body">
 													<h5 class="card-title">${
@@ -163,6 +143,12 @@ document.addEventListener("DOMContentLoaded", function () {
 					`;
 
       productsContainer.appendChild(productCard);
+
+      // Add event listener to the product card
+      productCard.addEventListener("click", function (e) {
+        e.preventDefault();
+        openProductDetailOverlay(product.id);
+      });
 
       // Add event listener to the "Add to Cart" button
       const addToCartBtn = productCard.querySelector(".add-to-cart");
@@ -220,7 +206,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Function to add product to cart
   function addToCart(productId) {
-    let cartItems = getCartItems();
+    let cartItems = getCartItems(currentUsername);
 
     if (cartItems[productId]) {
       cartItems[productId]++;
@@ -228,30 +214,76 @@ document.addEventListener("DOMContentLoaded", function () {
       cartItems[productId] = 1;
     }
 
-    saveCartItems(cartItems);
-
+    saveCartItems(cartItems, currentUsername);
     displayProducts(filteredProducts, products);
   }
 
-  // Function to get cart items from cookies
-  function getCartItems() {
-    const cartCookie = getCookie(`cart_${currentUsername}`);
-    return cartCookie ? JSON.parse(cartCookie) : {};
-  }
-
-  // Function to save cart items to cookies
-  function saveCartItems(cartItems) {
-    setCookie(`cart_${currentUsername}`, JSON.stringify(cartItems), 7);
-  }
-
-  // Function to set Cookie
-  function setCookie(name, value, days) {
-    let expires = "";
-    if (days) {
-      const expirationDate = new Date();
-      expirationDate.setDate(expirationDate.getDate() + 7);
-      const expires = "; expires=" + expirationDate;
+  // Back to top button
+  const backToTopBtn = document.getElementById("back-to-top");
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 300) {
+      backToTopBtn.style.animation = "fadeUp 0.3s ease-in-out forwards";
+    } else {
+      backToTopBtn.style.animation = "fadeDown 0.3s ease-in-out forwards";
     }
-    document.cookie = name + "=" + value + expires;
-  }
+  });
+
+  backToTopBtn.addEventListener("click", function (e) {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
 });
+
+// Function to set Cookie
+function setCookie(name, value, days) {
+  let expires = "";
+  if (days) {
+    const expirationDate = new Date();
+    expirationDate.setDate(expirationDate.getDate() + 7);
+    const expires = "; expires=" + expirationDate;
+  }
+  document.cookie = name + "=" + value + expires;
+}
+
+// Function to get a specific cookie by name
+function getCookie(name) {
+  const nameEQ = name + "=";
+  const userCookie = document.cookie
+    .split(";")
+    .map((c) => c.trim())
+    .find((c) => c.startsWith(nameEQ));
+  return userCookie ? userCookie.substring(nameEQ.length) : null;
+}
+
+// Get current username from session cookie
+function getCurrentUsername() {
+  const userSessionCookie = getCookie("userSession");
+
+  if (userSessionCookie) {
+    try {
+      const userData = JSON.parse(userSessionCookie);
+      return userData.name;
+    } catch (error) {
+      console.error("Error parsing userSession cookie:", error);
+    }
+  } else {
+    window.location.href = "./registration.html";
+  }
+}
+
+// Function to get cart items from cookies
+function getCartItems(userName) {
+  const cartCookie = getCookie(`cart_${userName}`);
+  return cartCookie ? JSON.parse(cartCookie) : {};
+}
+
+// Function to save cart items to cookies
+function saveCartItems(cartItems, userName) {
+  setCookie(`cart_${userName}`, JSON.stringify(cartItems), 7);
+}
+
+// Export Functions
+export { getCurrentUsername, getCartItems, saveCartItems };

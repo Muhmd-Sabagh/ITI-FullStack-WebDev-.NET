@@ -41,6 +41,7 @@ a:focus {
   transition: all 0.4s ease;
 }
 
+/* Registration Page */
 /* Card Styles */
 .login-card,
 .register-card {
@@ -77,7 +78,7 @@ a:focus {
 
 .form-control:focus {
   border-color: var(--bs-primary);
-  box-shadow: 0 0 0 0.25rem rgba(74, 124, 89, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(52, 152, 219, 0.25);
 }
 
 /* Buttons */
@@ -207,6 +208,11 @@ a:focus {
   opacity: 1;
 }
 
+/* Shop Now Section */
+.form-floating {
+  width: 30%;
+}
+
 /* Cards */
 .category-card .card,
 .product-card {
@@ -220,20 +226,6 @@ a:focus {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
 }
 
-.product-card .badge {
-  font-size: 0.8rem;
-  padding: 0.35em 0.65em;
-}
-
-/* Hover Effect */
-.hover-effect {
-  transition: all 0.3s ease;
-}
-
-.hover-effect:hover {
-  transform: translateY(-5px);
-}
-
 /* Footer */
 footer a {
   transition: color 0.3s ease;
@@ -243,7 +235,148 @@ footer a:hover {
   color: var(--bs-primary) !important;
 }
 
-/* Shop Now Section */
-.form-floating {
-  width: 30%;
+/* Back to Top */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+}
+
+/* Overlay Base Styles */
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.overlay-content {
+  background-color: white;
+  margin: 30px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 1200px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Overlay Header */
+.overlay-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.overlay-header h2 {
+  margin: 0;
+  color: var(--bs-primary);
+}
+
+/* Close Button */
+.close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--bs-primary);
+  transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+  color: var(--bs-danger);
+}
+
+/* Cart Items */
+#cartItems {
+  max-height: 60vh;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+/* Cart Summary */
+.cart-summary {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Quantity Controls */
+.quantity-control {
+  display: flex;
+  align-items: center;
+}
+
+.quantity {
+  min-width: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Product Detail Overlay */
+.product-detail .product-info {
+  height: 100%;
+}
+
+.product-specs {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Cart Badge */
+.badge.bg-primary {
+  transition: all 0.3s ease;
+}
+
+/* Add to Cart Animation */
+.alert {
+  animation: slideDown 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes slideDown {
+  from {
+    transform: translate(-50%, -20px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
 }
