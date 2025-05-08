@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITIDB_Form_in_discon", "ITIDB_Form_in_discon\ITIDB_Form_in_discon.csproj", "{DAECA342-D16B-4F4D-98C8-D6B6F80E0438}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAECA342-D16B-4F4D-98C8-D6B6F80E0438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAECA342-D16B-4F4D-98C8-D6B6F80E0438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAECA342-D16B-4F4D-98C8-D6B6F80E0438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAECA342-D16B-4F4D-98C8-D6B6F80E0438}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BDB64B8-68FC-4A8F-8415-B2DDB5958FDD}
+	EndGlobalSection
+EndGlobal
