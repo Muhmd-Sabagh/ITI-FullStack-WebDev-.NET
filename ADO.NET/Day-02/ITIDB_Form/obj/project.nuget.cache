@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kRvX1Gqjrjw=",
+  "dgSpecHash": "WkP2JvXlDyc=",
   "success": true,
-  "projectFilePath": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO\\Day-02\\ITIDB_Form\\ITIDB_Form.csproj",
+  "projectFilePath": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO.NET\\Day-02\\ITIDB_Form\\ITIDB_Form.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\melsa\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\melsa\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

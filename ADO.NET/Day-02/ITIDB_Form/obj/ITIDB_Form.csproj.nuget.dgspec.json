@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO\\Day-02\\ITIDB_Form\\ITIDB_Form.csproj": {}
+    "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO.NET\\Day-02\\ITIDB_Form\\ITIDB_Form.csproj": {}
   },
   "projects": {
-    "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO\\Day-02\\ITIDB_Form\\ITIDB_Form.csproj": {
+    "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO.NET\\Day-02\\ITIDB_Form\\ITIDB_Form.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO\\Day-02\\ITIDB_Form\\ITIDB_Form.csproj",
+        "projectUniqueName": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO.NET\\Day-02\\ITIDB_Form\\ITIDB_Form.csproj",
         "projectName": "ITIDB_Form",
-        "projectPath": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO\\Day-02\\ITIDB_Form\\ITIDB_Form.csproj",
+        "projectPath": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO.NET\\Day-02\\ITIDB_Form\\ITIDB_Form.csproj",
         "packagesPath": "C:\\Users\\melsa\\.nuget\\packages\\",
-        "outputPath": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO\\Day-02\\ITIDB_Form\\obj\\",
+        "outputPath": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO.NET\\Day-02\\ITIDB_Form\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -88,18 +88,21 @@ namespace ITIDB_Form
 
         private void btn_del_Click(object sender, EventArgs e)
         {
-            SqlCommand cmd = new SqlCommand("DELETE FROM Course WHERE Crs_Id=@id", conn);
-            cmd.Parameters.AddWithValue("id", cb_cname.SelectedValue);
-
-            conn.Open();
-            int affectedRows = cmd.ExecuteNonQuery();
-            conn.Close();
-
-            if (affectedRows > 0)
+            if (MessageBox.Show("Are you sure to delete the Course?", "confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
-                Form1_Load(null, null);
+                SqlCommand cmd = new SqlCommand("DELETE FROM Course WHERE Crs_Id=@id", conn);
+                cmd.Parameters.AddWithValue("id", cb_cname.SelectedValue);
 
-                MessageBox.Show("Course Deleted Successfully");
+                conn.Open();
+                int affectedRows = cmd.ExecuteNonQuery();
+                conn.Close();
+
+                if (affectedRows > 0)
+                {
+                    Form1_Load(null, null);
+
+                    MessageBox.Show("Course Deleted Successfully");
+                }
             }
         }
     }
