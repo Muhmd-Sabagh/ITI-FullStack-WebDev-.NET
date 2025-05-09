@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO\\Day-03\\ITIDB_Form_in_discon\\ITIDB_Form_in_discon.csproj": {}
+    "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO.NET\\Day-03\\ITIDB_Form_in_discon\\ITIDB_Form_in_discon.csproj": {}
   },
   "projects": {
-    "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO\\Day-03\\ITIDB_Form_in_discon\\ITIDB_Form_in_discon.csproj": {
+    "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO.NET\\Day-03\\ITIDB_Form_in_discon\\ITIDB_Form_in_discon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO\\Day-03\\ITIDB_Form_in_discon\\ITIDB_Form_in_discon.csproj",
+        "projectUniqueName": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO.NET\\Day-03\\ITIDB_Form_in_discon\\ITIDB_Form_in_discon.csproj",
         "projectName": "ITIDB_Form_in_discon",
-        "projectPath": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO\\Day-03\\ITIDB_Form_in_discon\\ITIDB_Form_in_discon.csproj",
+        "projectPath": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO.NET\\Day-03\\ITIDB_Form_in_discon\\ITIDB_Form_in_discon.csproj",
         "packagesPath": "C:\\Users\\melsa\\.nuget\\packages\\",
-        "outputPath": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO\\Day-03\\ITIDB_Form_in_discon\\obj\\",
+        "outputPath": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\ADO.NET\\Day-03\\ITIDB_Form_in_discon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
