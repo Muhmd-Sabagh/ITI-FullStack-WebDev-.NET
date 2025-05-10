@@ -1,0 +1,15 @@
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-01\LINQLab01Answers\bin\Debug\net8.0\LINQLab01Answers.exe
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-01\LINQLab01Answers\bin\Debug\net8.0\LINQLab01Answers.deps.json
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-01\LINQLab01Answers\bin\Debug\net8.0\LINQLab01Answers.runtimeconfig.json
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-01\LINQLab01Answers\bin\Debug\net8.0\LINQLab01Answers.dll
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-01\LINQLab01Answers\bin\Debug\net8.0\LINQLab01Answers.pdb
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-01\LINQLab01Answers\obj\Debug\net8.0\LINQLab01Answers.GeneratedMSBuildEditorConfig.editorconfig
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-01\LINQLab01Answers\obj\Debug\net8.0\LINQLab01Answers.AssemblyInfoInputs.cache
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-01\LINQLab01Answers\obj\Debug\net8.0\LINQLab01Answers.AssemblyInfo.cs
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-01\LINQLab01Answers\obj\Debug\net8.0\LINQLab01Answers.csproj.CoreCompileInputs.cache
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-01\LINQLab01Answers\obj\Debug\net8.0\LINQLab01Answers.sourcelink.json
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-01\LINQLab01Answers\obj\Debug\net8.0\LINQLab01Answers.dll
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-01\LINQLab01Answers\obj\Debug\net8.0\refint\LINQLab01Answers.dll
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-01\LINQLab01Answers\obj\Debug\net8.0\LINQLab01Answers.pdb
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-01\LINQLab01Answers\obj\Debug\net8.0\LINQLab01Answers.genruntimeconfig.cache
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-01\LINQLab01Answers\obj\Debug\net8.0\ref\LINQLab01Answers.dll
