@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ITIDB_Form_in_discon")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ITIDB_Form_in_conn")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3dc5155eb1dd773dd846de954f6109d68993f33")]
-[assembly: System.Reflection.AssemblyProductAttribute("ITIDB_Form_in_discon")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ITIDB_Form_in_discon")]
+[assembly: System.Reflection.AssemblyProductAttribute("ITIDB_Form_in_conn")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ITIDB_Form_in_conn")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
