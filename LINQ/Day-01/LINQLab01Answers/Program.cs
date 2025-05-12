@@ -90,39 +90,39 @@ namespace LINQLab01Answers
             //Console.WriteLine(q11);
             #endregion
             #region 12. Ask the user for sorting method (by Name,  Age, etc….) and sorting way (ASC. Or DESC.)…. And implement a function named FindStudentsSorted() that displays all Students sorted as the user requested.
-            //SortColumn column;
-            //SortDirection direction;
-            //int choice;
-            //do
-            //{
-            //    Console.Write("Sort by:\n" +
-            //                  "1. First Name\n" +
-            //                  "2. Last Name\n" +
-            //                  "3. Age\n" +
-            //                  "4. Salary\n" +
-            //                  "Enter your choice (1–4): ");
-            //}
-            //while (!int.TryParse(Console.ReadLine(), out choice) || !Enum.IsDefined(typeof(SortColumn), choice));
-            //Console.WriteLine(typeof(SortColumn));
-            //column = (SortColumn)choice;
+            SortColumn column;
+            SortDirection direction;
+            int choice;
+            do
+            {
+                Console.Write("Sort by:\n" +
+                              "1. First Name\n" +
+                              "2. Last Name\n" +
+                              "3. Age\n" +
+                              "4. Salary\n" +
+                              "Enter your choice (1–4): ");
+            }
+            while (!int.TryParse(Console.ReadLine(), out choice) || !Enum.IsDefined(typeof(SortColumn), choice));
+            Console.WriteLine(typeof(SortColumn));
+            column = (SortColumn)choice;
 
-            //do
-            //{
-            //    Console.Write("Sort direction:\n" +
-            //                  "1. Ascending\n" +
-            //                  "2. Descending\n" +
-            //                  "Enter your choice (1 or 2): ");
-            //}
-            //while (!int.TryParse(Console.ReadLine(), out choice) || !Enum.IsDefined(typeof(SortColumn), choice));
-            //direction = (SortDirection)choice;
+            do
+            {
+                Console.Write("Sort direction:\n" +
+                              "1. Ascending\n" +
+                              "2. Descending\n" +
+                              "Enter your choice (1 or 2): ");
+            }
+            while (!int.TryParse(Console.ReadLine(), out choice) || !Enum.IsDefined(typeof(SortColumn), choice));
+            direction = (SortDirection)choice;
 
-            //List<Student> sortedStudents = RepoHelper.FindStudentsSorted(students, column, direction).ToList();
+            List<Student> sortedStudents = RepoHelper.FindStudentsSorted(students, column, direction).ToList();
 
-            ////// Display
-            //foreach (var student in sortedStudents)
-            //{
-            //    Console.WriteLine(student);
-            //}
+            //// Display
+            foreach (var student in sortedStudents)
+            {
+                Console.WriteLine(student);
+            }
             #endregion
         }
     }

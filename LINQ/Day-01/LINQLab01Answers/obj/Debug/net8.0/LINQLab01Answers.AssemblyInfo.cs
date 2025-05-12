@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LINQLab01Answers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3dc5155eb1dd773dd846de954f6109d68993f33")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ee9165daba35abf60f2da77c5692ea2254709c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("LINQLab01Answers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LINQLab01Answers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
