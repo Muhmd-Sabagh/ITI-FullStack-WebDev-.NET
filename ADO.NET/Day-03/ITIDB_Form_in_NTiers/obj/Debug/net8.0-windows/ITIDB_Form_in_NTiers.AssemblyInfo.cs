@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ITIDB_Form_in_NTiers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3dc5155eb1dd773dd846de954f6109d68993f33")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b21c6b4a628323808a4d22a87e61817ba45d5754")]
 [assembly: System.Reflection.AssemblyProductAttribute("ITIDB_Form_in_NTiers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ITIDB_Form_in_NTiers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
