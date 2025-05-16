@@ -1,0 +1,6 @@
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-02\LINQD01LabClasses\bin\Debug\LINQD01LabClasses.dll
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-02\LINQD01LabClasses\bin\Debug\LINQD01LabClasses.pdb
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-02\LINQD01LabClasses\obj\Debug\LINQD01LabClasses.csproj.AssemblyReference.cache
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-02\LINQD01LabClasses\obj\Debug\LINQD01LabClasses.csproj.CoreCompileInputs.cache
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-02\LINQD01LabClasses\obj\Debug\LINQD01LabClasses.dll
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-02\LINQD01LabClasses\obj\Debug\LINQD01LabClasses.pdb

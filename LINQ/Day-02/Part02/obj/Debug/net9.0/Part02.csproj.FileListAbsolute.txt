@@ -1,0 +1,15 @@
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-02\Part02\bin\Debug\net9.0\Part02.exe
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-02\Part02\bin\Debug\net9.0\Part02.deps.json
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-02\Part02\bin\Debug\net9.0\Part02.runtimeconfig.json
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-02\Part02\bin\Debug\net9.0\Part02.dll
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-02\Part02\bin\Debug\net9.0\Part02.pdb
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-02\Part02\obj\Debug\net9.0\Part02.GeneratedMSBuildEditorConfig.editorconfig
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-02\Part02\obj\Debug\net9.0\Part02.AssemblyInfoInputs.cache
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-02\Part02\obj\Debug\net9.0\Part02.AssemblyInfo.cs
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-02\Part02\obj\Debug\net9.0\Part02.csproj.CoreCompileInputs.cache
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-02\Part02\obj\Debug\net9.0\Part02.sourcelink.json
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-02\Part02\obj\Debug\net9.0\Part02.dll
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-02\Part02\obj\Debug\net9.0\refint\Part02.dll
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-02\Part02\obj\Debug\net9.0\Part02.pdb
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-02\Part02\obj\Debug\net9.0\Part02.genruntimeconfig.cache
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\LINQ\Day-02\Part02\obj\Debug\net9.0\ref\Part02.dll
