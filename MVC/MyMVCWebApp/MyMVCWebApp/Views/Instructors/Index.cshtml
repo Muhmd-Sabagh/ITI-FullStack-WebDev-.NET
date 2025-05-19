@@ -1,0 +1,50 @@
+﻿@model List<Instructor>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Our Instructors</h2>
+<table class="table">
+    <thead class="table-dark">
+        <tr>
+            <th scope="col" class="text-center">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Department</th>
+            <th scope="col">Course</th>
+            <th scope="col" class="text-center">Image</th>
+            <th scope="col" class="text-center">Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Instructor i in Model)
+        {
+            <tr>
+                <th scope="row" class="text-center">@i.Id</th>
+                <td>@i.Name</td>
+                <td>@i.Address</td>
+                <td>@i.Salary</td>
+                <td>@i.Department.Name</td>
+                <td>@i.Course.Name</td>
+                <td class="text-center"><img class="rounded-circle" src="/images/@i.Img" style="width:40px" /></td>
+                <td class="text-center"><a href="/Instructors/Details/@i.Id" class="btn btn-info px-3 py-2">Details</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    thead {
+        height: 4rem;
+        font-size: 1.125rem;
+    }
+
+    th {
+        width: 30px;
+    }
+
+    th, td {
+        align-content: center;
+    }
+</style>
