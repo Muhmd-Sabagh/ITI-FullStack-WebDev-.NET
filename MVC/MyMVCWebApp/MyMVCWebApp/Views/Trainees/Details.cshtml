@@ -1,0 +1,71 @@
+﻿@model TraineeDetailsViewModel
+@{
+    ViewData["Title"] = "Trainee Details";
+}
+
+<div class="container">
+    <h2>Trainee Details</h2>
+
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <img class="img-thumbnail" src="/images/@Model.ImagePath" style="max-height: 200px;" />
+        </div>
+        <div class="col-md-9">
+            <dl class="row">
+                <dt class="col-3">ID</dt>
+                <dd class="col-9">@Model.Id</dd>
+
+                <dt class="col-3">Name</dt>
+                <dd class="col-9">@Model.Name</dd>
+
+                <dt class="col-3">Address</dt>
+                <dd class="col-9">@Model.Address</dd>
+
+                <dt class="col-3">Department</dt>
+                <dd class="col-9">@Model.DepartmentName</dd>
+            </dl>
+        </div>
+    </div>
+
+    <h4>Courses</h4>
+    <table class="table">
+        <thead class="table-dark">
+            <tr>
+                <th>Course Name</th>
+                <th>Min Degree</th>
+                <th>Trainee's Degree</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var course in Model.Courses)
+            {
+                <tr class="@(course.Passed ? "table-success" : "table-danger")">
+                    <td>@course.CourseName</td>
+                    <td>@course.MinDegree</td>
+                    <td>@course.TraineeDegree</td>
+                    <td>@(course.Passed ? "Passed" : "Failed")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="mt-3">
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>
+
+<style>
+    .border-3 {
+        border-width: 3px !important;
+    }
+
+    .table-dark {
+        height: 4rem;
+        font-size: 1.125rem;
+    }
+
+    th, td {
+        vertical-align: middle;
+    }
+</style>

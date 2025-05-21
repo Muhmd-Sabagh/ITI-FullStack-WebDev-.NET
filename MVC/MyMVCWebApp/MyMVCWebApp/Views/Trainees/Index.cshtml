@@ -1,0 +1,42 @@
+﻿@model List<TraineesViewModel>
+@{
+    ViewData["Title"] = "Trainees";
+}
+
+<h2>Our Trainees</h2>
+<table class="table">
+    <thead class="table-dark">
+        <tr>
+            <th scope="col" class="text-center">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Department</th>
+            <th scope="col">Courses Count</th>
+            <th scope="col" class="text-center">Image</th>
+            <th scope="col" class="text-center">Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var trainee in Model)
+        {
+            <tr>
+                <th scope="row" class="text-center">@trainee.Id</th>
+                <td>@trainee.Name</td>
+                <td>@trainee.DepartmentName</td>
+                <td>@trainee.CoursesCount</td>
+                <td class="text-center"><img class="rounded-circle" src="/images/@trainee.Image" style="width:40px" /></td>
+                <td class="text-center"><a href="/Trainees/Details/@trainee.Id" class="btn btn-outline-info px-3 py-2">Details</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    thead {
+        height: 4rem;
+        font-size: 1.125rem;
+    }
+
+    th, td {
+        vertical-align: middle;
+    }
+</style>

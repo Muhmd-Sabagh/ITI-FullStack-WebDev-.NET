@@ -15,6 +15,11 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        ITIDBContext itiDb = new ITIDBContext();
+        var trainees = itiDb.Trainees.Select(t => new { t.Id, t.Name }).ToList();
+        var courses = itiDb.Courses.Select(c => new { c.Id, c.Name }).ToList();
+        ViewBag.Courses = courses;
+        ViewBag.Trainees = trainees;
         return View();
     }
 
