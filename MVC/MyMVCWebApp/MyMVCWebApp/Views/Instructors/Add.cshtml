@@ -3,25 +3,33 @@
     ViewData["Title"] = "Add New Instructor";
 }
 
+@section Styles {
+    <style>
+        .form-group {
+            margin-top: 1.2rem;
+        }
+    </style>
+}
+
 <h2>Add New Instructor</h2>
 
 <form asp-action="Add" method="post" id="instructorForm">
     <div class="row">
         <div class="col-md-6">
             <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
+                <label asp-for="Name" class="form-label"></label>
                 <input asp-for="Name" class="form-control" required />
                 <span class="text-danger" id="nameError"></span>
             </div>
 
             <div class="form-group">
-                <label asp-for="Salary" class="control-label"></label>
+                <label asp-for="Salary" class="form-label"></label>
                 <input asp-for="Salary" class="form-control" type="number" step="0.01" min="0" required />
                 <span class="text-danger" id="salaryError"></span>
             </div>
 
             <div class="form-group">
-                <label asp-for="Address" class="control-label"></label>
+                <label asp-for="Address" class="form-label"></label>
                 <input asp-for="Address" class="form-control" required />
                 <span class="text-danger" id="addressError"></span>
             </div>
@@ -29,23 +37,23 @@
 
         <div class="col-md-6">
             <div class="form-group">
-                <label asp-for="DeptId" class="control-label">Department</label>
+                <label asp-for="DeptId" class="form-label">Department</label>
                 <select asp-for="DeptId" class="form-control" asp-items="ViewBag.Departments" required>
-                    <option value="">-- Select Department --</option>
+                    <option selected disabled value="">-- Select Department --</option>
                 </select>
                 <span class="text-danger" id="deptError"></span>
             </div>
 
             <div class="form-group">
-                <label asp-for="CrsId" class="control-label">Course</label>
+                <label asp-for="CrsId" class="form-label">Course</label>
                 <select asp-for="CrsId" class="form-control" asp-items="ViewBag.Courses" required>
-                    <option value="">-- Select Course --</option>
+                    <option selected disabled value="">-- Select Course --</option>
                 </select>
                 <span class="text-danger" id="courseError"></span>
             </div>
 
             <div class="form-group">
-                <label asp-for="Img" class="control-label">Image Path</label>
+                <label asp-for="Img" class="form-label">Image Path</label>
                 <input asp-for="Img" class="form-control" placeholder="e.g., instructor1.jpg" />
                 <small class="form-text text-muted">Leave empty for default image</small>
             </div>
@@ -59,54 +67,56 @@
 </form>
 
 
-<script>
-    document.getElementById('instructorForm').addEventListener('submit', function(e) {
-        let isValid = true;
+@section Scripts {
+    <script>
+        document.getElementById('instructorForm').addEventListener('submit', function(e) {
+            let isValid = true;
 
-        // Clear previous errors
-        document.querySelectorAll('.text-danger').forEach(el => el.textContent = '');
+            // Clear previous errors
+            document.querySelectorAll('.text-danger').forEach(el => el.textContent = '');
 
-        // Validate Name
-        const name = document.querySelector('[name="Name"]').value.trim();
-        if (!name) {
-            document.getElementById('nameError').textContent = 'Name is required';
-            isValid = false;
-        }
+            // Validate Name
+            const name = document.querySelector('[name="Name"]').value.trim();
+            if (!name) {
+                document.getElementById('nameError').textContent = 'Name is required';
+                isValid = false;
+            }
 
-        // Validate Salary
-        const salary = document.querySelector('[name="Salary"]').value;
-        if (!salary) {
-            document.getElementById('salaryError').textContent = 'Salary is required';
-            isValid = false;
-        } else if (parseFloat(salary) < 0) {
-            document.getElementById('salaryError').textContent = 'Salary must be positive';
-            isValid = false;
-        }
+            // Validate Salary
+            const salary = document.querySelector('[name="Salary"]').value;
+            if (!salary) {
+                document.getElementById('salaryError').textContent = 'Salary is required';
+                isValid = false;
+            } else if (parseFloat(salary) < 0) {
+                document.getElementById('salaryError').textContent = 'Salary must be positive';
+                isValid = false;
+            }
 
-        // Validate Address
-        const address = document.querySelector('[name="Address"]').value.trim();
-        if (!address) {
-            document.getElementById('addressError').textContent = 'Address is required';
-            isValid = false;
-        }
+            // Validate Address
+            const address = document.querySelector('[name="Address"]').value.trim();
+            if (!address) {
+                document.getElementById('addressError').textContent = 'Address is required';
+                isValid = false;
+            }
 
-        // Validate Department
-        const deptId = document.querySelector('[name="DeptId"]').value;
-        if (!deptId) {
-            document.getElementById('deptError').textContent = 'Department is required';
-            isValid = false;
-        }
+            // Validate Department
+            const deptId = document.querySelector('[name="DeptId"]').value;
+            if (!deptId) {
+                document.getElementById('deptError').textContent = 'Department is required';
+                isValid = false;
+            }
 
-        // Validate Course
-        const crsId = document.querySelector('[name="CrsId"]').value;
-        if (!crsId) {
-            document.getElementById('courseError').textContent = 'Course is required';
-            isValid = false;
-        }
+            // Validate Course
+            const crsId = document.querySelector('[name="CrsId"]').value;
+            if (!crsId) {
+                document.getElementById('courseError').textContent = 'Course is required';
+                isValid = false;
+            }
 
-        if (!isValid) {
-            e.preventDefault();
-        }
-        // If valid, form will submit normally
-    });
-</script>
+            if (!isValid) {
+                e.preventDefault();
+            }
+            // If valid, form will submit normally
+        });
+    </script>
+}

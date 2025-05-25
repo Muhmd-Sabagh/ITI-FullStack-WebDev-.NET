@@ -339,3 +339,6 @@ E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\MyMVCWebApp.pdb
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\MyMVCWebApp.genruntimeconfig.cache
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\ref\MyMVCWebApp.dll
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\compressed\hciug513rs-devepoo3hg.gz
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\compressed\d9my0gm5q9-0rzh1bygd3.gz
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\compressed\a2cmy79dbp-vt4ckwmpum.gz

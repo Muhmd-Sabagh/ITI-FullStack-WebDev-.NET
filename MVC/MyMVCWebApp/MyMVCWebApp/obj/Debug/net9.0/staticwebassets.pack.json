@@ -5,8 +5,36 @@
       "PackagePath": "staticwebassets\\MyMVCWebApp.9hqzjwckdk.bundle.scp.css"
     },
     {
+      "Id": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\img\\bg-masthead.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg-masthead.jpg"
+    },
+    {
+      "Id": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\img\\bg-signup.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg-signup.jpg"
+    },
+    {
+      "Id": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\img\\demo-image-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\demo-image-01.jpg"
+    },
+    {
+      "Id": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\img\\demo-image-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\demo-image-02.jpg"
+    },
+    {
+      "Id": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\img\\ipad.png",
+      "PackagePath": "staticwebassets\\assets\\img\\ipad.png"
+    },
+    {
       "Id": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
       "Id": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\favicon.ico",
@@ -23,6 +51,10 @@
     {
       "Id": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\images\\male.jpg",
       "PackagePath": "staticwebassets\\images\\male.jpg"
+    },
+    {
+      "Id": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
     },
     {
       "Id": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\js\\site.js",

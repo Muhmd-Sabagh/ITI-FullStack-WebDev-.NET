@@ -18,6 +18,7 @@ E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\css\styles.css
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
@@ -25,6 +26,7 @@ E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery\LICENSE.txt
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\js\scripts.js
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery-validation\dist\jquery.validate.js
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery\dist\jquery.slim.js
@@ -32,6 +34,7 @@ E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery-validation\dist\additional-methods.js
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\assets\favicon.ico
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
@@ -60,11 +63,19 @@ E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery\dist\jquery.slim.min.map
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\assets\favicon.ico
+wwwroot\assets\img\bg-masthead.jpg
+wwwroot\assets\img\bg-signup.jpg
+wwwroot\assets\img\demo-image-01.jpg
+wwwroot\assets\img\demo-image-02.jpg
+wwwroot\assets\img\ipad.png
 wwwroot\css\site.css
+wwwroot\css\styles.css
 wwwroot\favicon.ico
 wwwroot\images\default.jpg
 wwwroot\images\female.jpg
 wwwroot\images\male.jpg
+wwwroot\js\scripts.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

@@ -22,7 +22,7 @@ namespace MyMVCWebApp.Controllers
             return NotFound();
         }
 
-        // GET: Instructors/Details/5
+        // GET: Instructors/Details/@id
         public IActionResult Details(int id)
         {
             var instructor = itiDb.Instructors
@@ -45,13 +45,14 @@ namespace MyMVCWebApp.Controllers
 
         // POST: Instructors/Add
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Add(Instructor instructor)
         {
             if (string.IsNullOrEmpty(instructor.Name) ||
-        instructor.Salary <= 0 ||
-        string.IsNullOrEmpty(instructor.Address) ||
-        instructor.DeptId == 0 ||
-        instructor.CrsId == 0)
+                instructor.Salary <= 0 ||
+                string.IsNullOrEmpty(instructor.Address) ||
+                instructor.DeptId == 0 ||
+                instructor.CrsId == 0)
             {
                 // Reload dropdowns if validation fails
                 ViewBag.Departments = new SelectList(itiDb.Departments, "Id", "Name", instructor.DeptId);

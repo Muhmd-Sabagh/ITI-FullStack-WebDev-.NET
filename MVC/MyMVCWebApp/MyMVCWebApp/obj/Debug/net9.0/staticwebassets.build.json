@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6obENsqUt7p/I1Ca6EwSgyDNolD6Q/28Bui0DymyVMQ=",
+  "Hash": "dOqWDc/EIMalea3+c6GWCH27DNWYupMXrxRDGHqBbko=",
   "Source": "MyMVCWebApp",
   "BasePath": "_content/MyMVCWebApp",
   "Mode": "Default",
@@ -437,6 +437,27 @@
       "OriginalItemSpec": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
+      "Identity": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\a2cmy79dbp-vt4ckwmpum.gz",
+      "SourceId": "MyMVCWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MyMVCWebApp",
+      "RelativePath": "css/styles#[.{fingerprint=vt4ckwmpum}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\css\\styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7fb4ho5ekb",
+      "Integrity": "0/MICyMUrvl/643tgENB3fqN7OaLGAICFRXszmLooUM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\css\\styles.css"
+    },
+    {
       "Identity": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\atxc5mqrey-6cfz1n2cew.gz",
       "SourceId": "MyMVCWebApp",
       "SourceType": "Discovered",
@@ -584,6 +605,27 @@
       "OriginalItemSpec": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
+      "Identity": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\d9my0gm5q9-0rzh1bygd3.gz",
+      "SourceId": "MyMVCWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MyMVCWebApp",
+      "RelativePath": "js/scripts#[.{fingerprint=0rzh1bygd3}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\js\\scripts.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "41yzga309d",
+      "Integrity": "CD+os6XZ3dUqXYjddue3HyrKmYvsLsO8x6lEaJo6Wq0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\js\\scripts.js"
+    },
+    {
       "Identity": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\db9pl4ghnm-pk9g2wxc8p.gz",
       "SourceId": "MyMVCWebApp",
       "SourceType": "Discovered",
@@ -729,6 +771,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Identity": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\hciug513rs-devepoo3hg.gz",
+      "SourceId": "MyMVCWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MyMVCWebApp",
+      "RelativePath": "assets/favicon#[.{fingerprint=devepoo3hg}]?.ico.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\favicon.ico",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "j3fujmqth6",
+      "Integrity": "75JECphqLOYUqUSmszOMzYIQcdgDgtGzaeuEBWX8E50=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\favicon.ico"
     },
     {
       "Identity": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\isu0oda25q-9hqzjwckdk.gz",
@@ -1403,6 +1466,132 @@
       "OriginalItemSpec": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MyMVCWebApp.bundle.scp.css"
     },
     {
+      "Identity": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\favicon.ico",
+      "SourceId": "MyMVCWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\",
+      "BasePath": "_content/MyMVCWebApp",
+      "RelativePath": "assets/favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "devepoo3hg",
+      "Integrity": "ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\img\\bg-masthead.jpg",
+      "SourceId": "MyMVCWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\",
+      "BasePath": "_content/MyMVCWebApp",
+      "RelativePath": "assets/img/bg-masthead#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ufi0stqs3k",
+      "Integrity": "Wi3ci8RNQodh60aj0fAsyAXrYYZltkASPXK+Kriql/k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\bg-masthead.jpg"
+    },
+    {
+      "Identity": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\img\\bg-signup.jpg",
+      "SourceId": "MyMVCWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\",
+      "BasePath": "_content/MyMVCWebApp",
+      "RelativePath": "assets/img/bg-signup#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jzz4p4fxz1",
+      "Integrity": "Lwg+PG9XatoTFmmKn5DwOZcFkU17VDc791FV+JwCIbg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\bg-signup.jpg"
+    },
+    {
+      "Identity": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\img\\demo-image-01.jpg",
+      "SourceId": "MyMVCWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\",
+      "BasePath": "_content/MyMVCWebApp",
+      "RelativePath": "assets/img/demo-image-01#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g8x9yya6r8",
+      "Integrity": "gFrvcA91JERvE90uz6dOFNUnj4iiyIpyz6Qv4HlqkDw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\demo-image-01.jpg"
+    },
+    {
+      "Identity": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\img\\demo-image-02.jpg",
+      "SourceId": "MyMVCWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\",
+      "BasePath": "_content/MyMVCWebApp",
+      "RelativePath": "assets/img/demo-image-02#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xl33qnydsw",
+      "Integrity": "BatWrudeOyIiS9NL0NZpasxvzNMOZ5Oiv9llOZsUmWk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\demo-image-02.jpg"
+    },
+    {
+      "Identity": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\img\\ipad.png",
+      "SourceId": "MyMVCWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\",
+      "BasePath": "_content/MyMVCWebApp",
+      "RelativePath": "assets/img/ipad#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iwfgtzgj37",
+      "Integrity": "fuJZuFroL0bOVQ8N2RB/8wsnoXOCaq44Qlf4eRcp068=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\ipad.png"
+    },
+    {
       "Identity": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\css\\site.css",
       "SourceId": "MyMVCWebApp",
       "SourceType": "Discovered",
@@ -1422,6 +1611,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\css\\styles.css",
+      "SourceId": "MyMVCWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\",
+      "BasePath": "_content/MyMVCWebApp",
+      "RelativePath": "css/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vt4ckwmpum",
+      "Integrity": "jajsvxgI4FjwF/h3g5DzvN9O6EUBMagO7GOCUMd2W7o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
       "Identity": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\favicon.ico",
@@ -1506,6 +1716,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\male.jpg"
+    },
+    {
+      "Identity": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\js\\scripts.js",
+      "SourceId": "MyMVCWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\",
+      "BasePath": "_content/MyMVCWebApp",
+      "RelativePath": "js/scripts#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0rzh1bygd3",
+      "Integrity": "xGNnearQ7j6grXMKLrMfV4kDFO744Clt9Uk1+FdffAQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\scripts.js"
     },
     {
       "Identity": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\js\\site.js",
@@ -2791,6 +3022,714 @@
   ],
   "Endpoints": [
     {
+      "Route": "assets/favicon.devepoo3hg.ico",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\hciug513rs-devepoo3hg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000452284034"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2210"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"75JECphqLOYUqUSmszOMzYIQcdgDgtGzaeuEBWX8E50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "devepoo3hg"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicon.devepoo3hg.ico",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23462"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "devepoo3hg"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicon.devepoo3hg.ico.gz",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\hciug513rs-devepoo3hg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2210"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"75JECphqLOYUqUSmszOMzYIQcdgDgtGzaeuEBWX8E50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "devepoo3hg"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicon.ico.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-75JECphqLOYUqUSmszOMzYIQcdgDgtGzaeuEBWX8E50="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicon.ico",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\hciug513rs-devepoo3hg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000452284034"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2210"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"75JECphqLOYUqUSmszOMzYIQcdgDgtGzaeuEBWX8E50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicon.ico",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23462"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicon.ico.gz",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\hciug513rs-devepoo3hg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2210"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"75JECphqLOYUqUSmszOMzYIQcdgDgtGzaeuEBWX8E50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-75JECphqLOYUqUSmszOMzYIQcdgDgtGzaeuEBWX8E50="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/bg-masthead.jpg",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\img\\bg-masthead.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "218077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wi3ci8RNQodh60aj0fAsyAXrYYZltkASPXK+Kriql/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wi3ci8RNQodh60aj0fAsyAXrYYZltkASPXK+Kriql/k="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/bg-masthead.ufi0stqs3k.jpg",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\img\\bg-masthead.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "218077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wi3ci8RNQodh60aj0fAsyAXrYYZltkASPXK+Kriql/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ufi0stqs3k"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/bg-masthead.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wi3ci8RNQodh60aj0fAsyAXrYYZltkASPXK+Kriql/k="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/bg-signup.jpg",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\img\\bg-signup.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "535218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lwg+PG9XatoTFmmKn5DwOZcFkU17VDc791FV+JwCIbg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lwg+PG9XatoTFmmKn5DwOZcFkU17VDc791FV+JwCIbg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/bg-signup.jzz4p4fxz1.jpg",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\img\\bg-signup.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "535218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lwg+PG9XatoTFmmKn5DwOZcFkU17VDc791FV+JwCIbg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jzz4p4fxz1"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/bg-signup.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lwg+PG9XatoTFmmKn5DwOZcFkU17VDc791FV+JwCIbg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/demo-image-01.g8x9yya6r8.jpg",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\img\\demo-image-01.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gFrvcA91JERvE90uz6dOFNUnj4iiyIpyz6Qv4HlqkDw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g8x9yya6r8"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/demo-image-01.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gFrvcA91JERvE90uz6dOFNUnj4iiyIpyz6Qv4HlqkDw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/demo-image-01.jpg",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\img\\demo-image-01.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gFrvcA91JERvE90uz6dOFNUnj4iiyIpyz6Qv4HlqkDw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gFrvcA91JERvE90uz6dOFNUnj4iiyIpyz6Qv4HlqkDw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/demo-image-02.jpg",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\img\\demo-image-02.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105114"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BatWrudeOyIiS9NL0NZpasxvzNMOZ5Oiv9llOZsUmWk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BatWrudeOyIiS9NL0NZpasxvzNMOZ5Oiv9llOZsUmWk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/demo-image-02.xl33qnydsw.jpg",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\img\\demo-image-02.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105114"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BatWrudeOyIiS9NL0NZpasxvzNMOZ5Oiv9llOZsUmWk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xl33qnydsw"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/demo-image-02.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BatWrudeOyIiS9NL0NZpasxvzNMOZ5Oiv9llOZsUmWk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/ipad.iwfgtzgj37.png",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\img\\ipad.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "235936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fuJZuFroL0bOVQ8N2RB/8wsnoXOCaq44Qlf4eRcp068=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iwfgtzgj37"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/ipad.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fuJZuFroL0bOVQ8N2RB/8wsnoXOCaq44Qlf4eRcp068="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/ipad.png",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\assets\\img\\ipad.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "235936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fuJZuFroL0bOVQ8N2RB/8wsnoXOCaq44Qlf4eRcp068=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fuJZuFroL0bOVQ8N2RB/8wsnoXOCaq44Qlf4eRcp068="
+        }
+      ]
+    },
+    {
       "Route": "css/site.b9sayid5wm.css",
       "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\fx3zdnjoeh-b9sayid5wm.gz",
       "Selectors": [
@@ -3085,6 +4024,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\a2cmy79dbp-vt4ckwmpum.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000031550718"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31694"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0/MICyMUrvl/643tgENB3fqN7OaLGAICFRXszmLooUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 23:59:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"jajsvxgI4FjwF/h3g5DzvN9O6EUBMagO7GOCUMd2W7o=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jajsvxgI4FjwF/h3g5DzvN9O6EUBMagO7GOCUMd2W7o="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "246678"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jajsvxgI4FjwF/h3g5DzvN9O6EUBMagO7GOCUMd2W7o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 23:59:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jajsvxgI4FjwF/h3g5DzvN9O6EUBMagO7GOCUMd2W7o="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css.gz",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\a2cmy79dbp-vt4ckwmpum.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31694"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0/MICyMUrvl/643tgENB3fqN7OaLGAICFRXszmLooUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 23:59:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0/MICyMUrvl/643tgENB3fqN7OaLGAICFRXszmLooUM="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.vt4ckwmpum.css",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\a2cmy79dbp-vt4ckwmpum.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000031550718"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31694"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0/MICyMUrvl/643tgENB3fqN7OaLGAICFRXszmLooUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 23:59:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"jajsvxgI4FjwF/h3g5DzvN9O6EUBMagO7GOCUMd2W7o=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vt4ckwmpum"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jajsvxgI4FjwF/h3g5DzvN9O6EUBMagO7GOCUMd2W7o="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.vt4ckwmpum.css",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "246678"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jajsvxgI4FjwF/h3g5DzvN9O6EUBMagO7GOCUMd2W7o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 23:59:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vt4ckwmpum"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jajsvxgI4FjwF/h3g5DzvN9O6EUBMagO7GOCUMd2W7o="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.vt4ckwmpum.css.gz",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\a2cmy79dbp-vt4ckwmpum.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31694"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0/MICyMUrvl/643tgENB3fqN7OaLGAICFRXszmLooUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 23:59:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vt4ckwmpum"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0/MICyMUrvl/643tgENB3fqN7OaLGAICFRXszmLooUM="
         }
       ]
     },
@@ -3629,6 +4866,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-Gy/Knki7uUAm6pKqEm9FnoV6qQmNemIKkurWi7NEjAI="
+        }
+      ]
+    },
+    {
+      "Route": "js/scripts.0rzh1bygd3.js",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\d9my0gm5q9-0rzh1bygd3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001464128843"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "682"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CD+os6XZ3dUqXYjddue3HyrKmYvsLsO8x6lEaJo6Wq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"xGNnearQ7j6grXMKLrMfV4kDFO744Clt9Uk1+FdffAQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0rzh1bygd3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/scripts.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xGNnearQ7j6grXMKLrMfV4kDFO744Clt9Uk1+FdffAQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/scripts.0rzh1bygd3.js",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\js\\scripts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xGNnearQ7j6grXMKLrMfV4kDFO744Clt9Uk1+FdffAQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0rzh1bygd3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/scripts.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xGNnearQ7j6grXMKLrMfV4kDFO744Clt9Uk1+FdffAQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/scripts.0rzh1bygd3.js.gz",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\d9my0gm5q9-0rzh1bygd3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CD+os6XZ3dUqXYjddue3HyrKmYvsLsO8x6lEaJo6Wq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0rzh1bygd3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/scripts.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CD+os6XZ3dUqXYjddue3HyrKmYvsLsO8x6lEaJo6Wq0="
+        }
+      ]
+    },
+    {
+      "Route": "js/scripts.js",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\d9my0gm5q9-0rzh1bygd3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001464128843"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "682"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CD+os6XZ3dUqXYjddue3HyrKmYvsLsO8x6lEaJo6Wq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"xGNnearQ7j6grXMKLrMfV4kDFO744Clt9Uk1+FdffAQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xGNnearQ7j6grXMKLrMfV4kDFO744Clt9Uk1+FdffAQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/scripts.js",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\wwwroot\\js\\scripts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xGNnearQ7j6grXMKLrMfV4kDFO744Clt9Uk1+FdffAQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xGNnearQ7j6grXMKLrMfV4kDFO744Clt9Uk1+FdffAQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/scripts.js.gz",
+      "AssetFile": "E:\\Learning\\ITI - FullStack WebDev Using dot NET\\Projects-Tasks\\MVC\\MyMVCWebApp\\MyMVCWebApp\\obj\\Debug\\net9.0\\compressed\\d9my0gm5q9-0rzh1bygd3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CD+os6XZ3dUqXYjddue3HyrKmYvsLsO8x6lEaJo6Wq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CD+os6XZ3dUqXYjddue3HyrKmYvsLsO8x6lEaJo6Wq0="
         }
       ]
     },

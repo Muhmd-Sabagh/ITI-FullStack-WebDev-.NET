@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MyMVCWebApp.Models;
 using MyMVCWebApp.ViewModels;
@@ -8,6 +9,8 @@ namespace MyMVCWebApp.Controllers
     public class CoursesController : Controller
     {
         ITIDBContext itiDb = new ITIDBContext();
+
+        // GET: Courses
         public IActionResult Index()
         {
             var courses = itiDb.Courses
@@ -27,6 +30,7 @@ namespace MyMVCWebApp.Controllers
             return View(courses);
         }
 
+        // GET: Courses/Details/@id
         public IActionResult Details(int id)
         {
             var course = itiDb.Courses
@@ -58,6 +62,30 @@ namespace MyMVCWebApp.Controllers
             };
 
             return View(courseViewModel);
+        }
+
+        // GET: Courses/Add
+        public IActionResult Add()
+        {
+            ViewBag.Departments = new SelectList(itiDb.Departments, "Id", "Name");
+            return View();
+        }
+
+        // POST: Courses/Add
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Add(Course course)
+        {
+            if (string.IsNullOrEmpty(course.Name) ||
+                course.MinDegree > course.Degree)
+            {
+                ViewBag.Departments = new SelectList(itiDb.Departments, "Id", "Name");
+                return View(course);
+            }
+
+            itiDb.Courses.Add(course);
+            itiDb.SaveChanges();
+            return RedirectToAction(nameof(Index));
         }
     }
 }

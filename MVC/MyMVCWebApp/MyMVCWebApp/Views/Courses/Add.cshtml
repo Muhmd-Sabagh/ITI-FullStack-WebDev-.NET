@@ -1,0 +1,97 @@
+﻿@model Course
+@{
+    ViewData["Title"] = "Add New Course";
+}
+
+@section Styles {
+    <style>
+        .form-group{
+            margin-top: 1.2rem;
+        }
+    </style>
+}
+
+<h2>Add New Course</h2>
+
+<form asp-action="Add" asp-controller="Courses" method="post" id="courseForm" novalidate>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="Name" class="form-label"></label>
+                <input asp-for="Name" class="form-control" required />
+                <div class="invalid-feedback">
+                    Name is required!
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Degree" class="form-label"></label>
+                <input asp-for="Degree" class="form-control" step="1" min="0" max="500" id="degree" required />
+                <div class="invalid-feedback">
+                    Degree must be between 0 and 500!
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="MinDegree" class="form-label"></label>
+                <input asp-for="MinDegree" class="form-control" step="1" min="0" max="500" id="minDegree" required />
+                <div class="invalid-feedback">
+                    Minimum Degree must be positive and lower than Degree!
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="Hours" class="form-label"></label>
+                <input asp-for="Hours" class="form-control" step="1" min="0" max="300" required />
+                <div class="invalid-feedback">
+                    Hours must be between 0 and 300!
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="DeptId" class="form-label">Department</label>
+                <select asp-for="DeptId" class="form-control" asp-items="ViewBag.Departments" required>
+                    <option selected disabled value="">-- Select Department --</option>
+                </select>
+                <div class="invalid-feedback">
+                    Department is required!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group mt-5">
+        <button type="submit" class="btn btn-primary">Add Course</button>
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+        // const degreeInput = document.getElementById('degree');
+        // const minDegreeInput = document.getElementById('minDegree');
+
+        // function validateMinDegree() {
+        //     const degree = parseInt(degreeInput.value) || 0;
+        //     const minDegree = parseInt(minDegreeInput.value) || 0;
+
+        //     if (minDegree >= degree) {
+        //         minDegreeInput.classList.add('is-invalid');
+        //         return false;
+        //     } else {
+        //         minDegreeInput.classList.remove('is-invalid');
+        //         return true;
+        //     }
+        // }
+
+        // minDegreeInput.addEventListener("input", validateMinDegree);
+
+        document.getElementById('courseForm').addEventListener('submit', function(event) {
+            if (!this.checkValidity())
+            {
+                event.preventDefault();
+                event.stopPropagation();
+                this.classList.add('was-validated');
+            }
+        });
+    </script>
+}
