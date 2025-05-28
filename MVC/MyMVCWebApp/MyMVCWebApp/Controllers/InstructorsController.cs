@@ -2,20 +2,26 @@
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MyMVCWebApp.Models;
+using MyMVCWebApp.Repository;
 
 namespace MyMVCWebApp.Controllers
 {
     public class InstructorsController : Controller
     {
-        readonly ITIDBContext itiDb = new ITIDBContext();
+        IInstructorRepository instructorRepo;
+        IDepartmentRepository deptRepo;
+        ICourseRepository courseRepo;
 
+        public InstructorsController(IInstructorRepository _instructorRepo, IDepartmentRepository _deptRepo, ICourseRepository _courseRepo)
+        {
+            instructorRepo = _instructorRepo;
+            deptRepo = _deptRepo;
+            courseRepo = _courseRepo;
+        }
         // GET: Instructors
         public IActionResult Index()
         {
-            var instructors = itiDb.Instructors
-                .Include(i => i.Department)
-                .Include(i => i.Course)
-                .ToList();
+            var instructors = instructorRepo.GetAll();
 
             if (instructors != null)
                 return View(instructors);
@@ -25,10 +31,7 @@ namespace MyMVCWebApp.Controllers
         // GET: Instructors/Details/@id
         public IActionResult Details(int id)
         {
-            var instructor = itiDb.Instructors
-                .Include(i => i.Department)
-                .Include(i => i.Course)
-                .FirstOrDefault(i => i.Id == id);
+            var instructor = instructorRepo.GetById(id);
 
             if (instructor != null)
                 return View("Details", instructor);
@@ -38,8 +41,8 @@ namespace MyMVCWebApp.Controllers
         // GET: Instructors/Add
         public IActionResult Add()
         {
-            ViewBag.Departments = new SelectList(itiDb.Departments, "Id", "Name");
-            ViewBag.Courses = new SelectList(itiDb.Courses, "Id", "Name");
+            ViewBag.Departments = new SelectList(deptRepo.GetAll(), "Id", "Name");
+            ViewBag.Courses = new SelectList(courseRepo.GetAll(), "Id", "Name");
             return View();
         }
 
@@ -55,8 +58,8 @@ namespace MyMVCWebApp.Controllers
                 instructor.CrsId == 0)
             {
                 // Reload dropdowns if validation fails
-                ViewBag.Departments = new SelectList(itiDb.Departments, "Id", "Name", instructor.DeptId);
-                ViewBag.Courses = new SelectList(itiDb.Courses, "Id", "Name", instructor.CrsId);
+                ViewBag.Departments = new SelectList(deptRepo.GetAll(), "Id", "Name", instructor.DeptId);
+                ViewBag.Courses = new SelectList(deptRepo.GetAll(), "Id", "Name", instructor.CrsId);
                 return View(instructor);
             }
 
@@ -66,8 +69,8 @@ namespace MyMVCWebApp.Controllers
                 instructor.Img = "default.jpg";
             }
 
-            itiDb.Instructors.Add(instructor);
-            itiDb.SaveChanges();
+            instructorRepo.Add(instructor);
+            instructorRepo.Save();
             return RedirectToAction(nameof(Index));
         }
     }

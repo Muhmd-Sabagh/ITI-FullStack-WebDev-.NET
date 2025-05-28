@@ -1,18 +1,24 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using MyMVCWebApp.Models;
+using MyMVCWebApp.Repository;
 using MyMVCWebApp.ViewModels;
 
 namespace MyMVCWebApp.Controllers
 {
     public class TraineesController : Controller
     {
-        ITIDBContext itiDb = new ITIDBContext();
+        ITraineeRepository traineeRepo;
+
+        public TraineesController(ITraineeRepository _traineeRepo)
+        {
+            traineeRepo = _traineeRepo;
+        }
         public IActionResult Index()
         {
-            var trainees = itiDb.Trainees
-                .Include(t => t.Department)
-                .Include(t => t.CrsResults)
+            var trainees = traineeRepo.GetAll();
+            if (trainees == null)
+                return NotFound();
+
+            var traineesVM = trainees
                 .Select(t => new TraineesViewModel
                 {
                     Id = t.Id,
@@ -23,25 +29,19 @@ namespace MyMVCWebApp.Controllers
                 })
                 .ToList();
 
-            if (trainees == null)
-                return NotFound();
-            return View(trainees);
+            return View(traineesVM);
         }
 
         public IActionResult Details(int id)
         {
-            var trainee = itiDb.Trainees
-                .Include(t => t.Department)
-                .Include(t => t.CrsResults)
-                    .ThenInclude(cr => cr.Course)
-                .FirstOrDefault(t => t.Id == id);
+            var trainee = traineeRepo.GetById(id);
 
             if (trainee == null)
             {
                 return NotFound();
             }
 
-            var traineeViewModel = new TraineeDetailsViewModel
+            var traineeVM = new TraineeDetailsViewModel
             {
                 Id = trainee.Id,
                 Name = trainee.Name,
@@ -57,7 +57,7 @@ namespace MyMVCWebApp.Controllers
                 }).ToList()
             };
 
-            return View(traineeViewModel);
+            return View(traineeVM);
         }
     }
 }

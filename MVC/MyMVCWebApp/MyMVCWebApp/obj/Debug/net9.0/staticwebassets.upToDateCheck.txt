@@ -1,68 +1,3 @@
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery\dist\jquery.min.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\favicon.ico
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\css\styles.css
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery-validation\LICENSE.md
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery\LICENSE.txt
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\js\scripts.js
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery\dist\jquery.slim.js
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\css\site.css
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery-validation\dist\additional-methods.js
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\assets\favicon.ico
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery\dist\jquery.min.js
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\js\site.js
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery\dist\jquery.js
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery\dist\jquery.slim.min.js
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery\dist\jquery.slim.min.map
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
 wwwroot\assets\favicon.ico
 wwwroot\assets\img\bg-masthead.jpg
 wwwroot\assets\img\bg-signup.jpg
@@ -77,14 +12,6 @@ wwwroot\images\female.jpg
 wwwroot\images\male.jpg
 wwwroot\js\scripts.js
 wwwroot\js\site.js
-wwwroot\lib\bootstrap\dist\css\bootstrap.css
-wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
-wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -109,6 +36,14 @@ wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
 wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
@@ -122,6 +57,14 @@ wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
@@ -129,11 +72,68 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\lib\jquery-validation\dist\additional-methods.js
-wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-wwwroot\lib\jquery-validation\dist\jquery.validate.js
-wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-wwwroot\lib\jquery-validation\LICENSE.md
-wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
-wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
-wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\assets\favicon.ico
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\css\site.css
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\css\styles.css
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\favicon.ico
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\js\scripts.js
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\js\site.js
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery-validation\dist\additional-methods.js
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery-validation\LICENSE.md
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery\dist\jquery.js
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery\dist\jquery.min.js
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery\dist\jquery.min.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery\dist\jquery.slim.js
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery\dist\jquery.slim.min.js
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery\dist\jquery.slim.min.map
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\wwwroot\lib\jquery\LICENSE.txt

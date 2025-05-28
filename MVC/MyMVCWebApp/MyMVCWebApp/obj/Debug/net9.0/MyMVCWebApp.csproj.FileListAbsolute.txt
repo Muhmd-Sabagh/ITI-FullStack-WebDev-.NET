@@ -81,13 +81,11 @@ E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\bin\Debug\net9.0\System.Composition.Runtime.dll
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\bin\Debug\net9.0\System.Composition.TypedParts.dll
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\bin\Debug\net9.0\System.Formats.Asn1.dll
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\bin\Debug\net9.0\System.Memory.Data.dll
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\bin\Debug\net9.0\System.Runtime.Caching.dll
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\bin\Debug\net9.0\System.Text.Json.dll
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\bin\Debug\net9.0\af\Humanizer.resources.dll
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\bin\Debug\net9.0\ar\Humanizer.resources.dll
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\bin\Debug\net9.0\az\Humanizer.resources.dll
@@ -326,12 +324,6 @@ E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\staticwebassets.build.json
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\staticwebassets.development.json
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\staticwebassets\msbuild.MyMVCWebApp.Microsoft.AspNetCore.StaticWebAssets.props
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\staticwebassets\msbuild.MyMVCWebApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\staticwebassets\msbuild.build.MyMVCWebApp.props
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.MyMVCWebApp.props
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.MyMVCWebApp.props
-E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\staticwebassets.pack.json
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\MyMVCWeb.65F62575.Up2Date
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\MyMVCWebApp.dll
@@ -342,3 +334,4 @@ E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\compressed\hciug513rs-devepoo3hg.gz
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\compressed\d9my0gm5q9-0rzh1bygd3.gz
 E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\compressed\a2cmy79dbp-vt4ckwmpum.gz
+E:\Learning\ITI - FullStack WebDev Using dot NET\Projects-Tasks\MVC\MyMVCWebApp\MyMVCWebApp\obj\Debug\net9.0\staticwebassets.build.json.cache

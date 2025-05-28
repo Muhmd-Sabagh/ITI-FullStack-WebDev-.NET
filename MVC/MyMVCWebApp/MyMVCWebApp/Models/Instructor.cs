@@ -23,7 +23,7 @@ namespace MyMVCWebApp.Models
 
         public int CrsId { get; set; }
 
-        public virtual Department Department { get; set; }
-        public virtual Course Course { get; set; }
+        public virtual Department? Department { get; set; }
+        public virtual Course? Course { get; set; }
     }
 }

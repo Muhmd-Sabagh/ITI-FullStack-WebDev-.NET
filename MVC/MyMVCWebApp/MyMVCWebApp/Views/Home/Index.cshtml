@@ -17,6 +17,116 @@
     </header>
 }
 
+<!-- Main Content Body -->
+<section class="container px-4 px-lg-5 py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            @if (ViewBag.Message != null)
+            {
+                <div class="alert alert-info alert-dismissible fade show" role="alert">
+                    @ViewBag.Message
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+            }
+
+            @if (Context.Session.GetString("Username") != null)
+            {
+                <!-- Session Timer Display -->
+                <div class="card mb-4">
+                    <div class="card-body text-center">
+                        <h4>Welcome, @Context.Session.GetString("Username")!</h4>
+                        <p class="mb-2">Session Time Remaining:</p>
+                        <div id="timer" class="h3 text-primary">30:00</div>
+                        <div class="mt-3">
+                            <a href="@Url.Action("Logout", "Home")" class="btn btn-secondary">Logout</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- User Dashboard Content -->
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Dashboard</h5>
+                        <p>You are successfully logged in as: <strong>@Context.Session.GetString("UserType")</strong></p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="#" class="btn btn-outline-primary btn-block mb-2">View Courses</a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="#" class="btn btn-outline-primary btn-block mb-2">View Results</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <!-- Login Form -->
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="mb-0">Login to ITI System</h4>
+                    </div>
+                    <div class="card-body">
+                        <form method="post" asp-action="Login" asp-controller="Home">
+                            <div class="mb-3">
+                                <label for="username" class="form-label">Username</label>
+                                <input type="text" class="form-control" id="username" name="username" 
+                                       placeholder="Enter your username" required>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary">Login</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+@if (Context.Session.GetString("Username") != null)
+{
+    @section Scripts {
+        <script>
+            // Session Timer JavaScript
+            let sessionDuration = 30 * 60; // 30 minutes in seconds
+            let sessionStartTime = @Html.Raw(Context.Session.GetString("SessionStartTime") ?? "Date.now()");
+            
+            function updateTimer() {
+                let currentTime = Date.now();
+                let elapsedSeconds = Math.floor((currentTime - sessionStartTime) / 1000);
+                let remainingSeconds = Math.max(0, sessionDuration - elapsedSeconds);
+                
+                if (remainingSeconds <= 0) {
+                    // Session expired
+                    alert('Your session has expired. You will be logged out.');
+                    window.location.href = '@Url.Action("Logout", "Home")';
+                    return;
+                }
+                
+                let minutes = Math.floor(remainingSeconds / 60);
+                let seconds = remainingSeconds % 60;
+                
+                document.getElementById('timer').textContent = 
+                    String(minutes).padStart(2, '0') + ':' + String(seconds).padStart(2, '0');
+                
+                // Change color when less than 5 minutes remaining
+                let timerElement = document.getElementById('timer');
+                if (remainingSeconds < 300) { // 5 minutes
+                    timerElement.className = 'h3 text-warning';
+                }
+                if (remainingSeconds < 60) { // 1 minute
+                    timerElement.className = 'h3 text-danger';
+                }
+            }
+            
+            // Update timer every second
+            setInterval(updateTimer, 1000);
+            updateTimer(); // Initial call
+        </script>
+    }
+}
+
 @* <div class="container p-4"> *@
 @*     <form role="search"> *@
 @*         <h3 class="mb-3">Search For a Trainee or a Course</h3> *@

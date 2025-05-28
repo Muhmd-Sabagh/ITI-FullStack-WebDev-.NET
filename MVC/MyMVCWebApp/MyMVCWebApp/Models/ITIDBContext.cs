@@ -14,10 +14,12 @@ namespace MyMVCWebApp.Models
 
         public virtual DbSet<CrsResult> CrsResults { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("Server=MUHMD-SABAGH-PC\\SQLEXPRESS;Database=ITIDB;Trusted_Connection=True;TrustServerCertificate=True;");
-        }
+        public ITIDBContext(DbContextOptions<ITIDBContext> options) : base(options) { }
+
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlServer("Server=MUHMD-SABAGH-PC\\SQLEXPRESS;Database=ITIDB;Trusted_Connection=True;TrustServerCertificate=True;");
+        //}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

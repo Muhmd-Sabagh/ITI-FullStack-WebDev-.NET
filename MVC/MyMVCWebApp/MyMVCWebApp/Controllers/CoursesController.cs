@@ -1,43 +1,43 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
 using MyMVCWebApp.Models;
+using MyMVCWebApp.Repository;
 using MyMVCWebApp.ViewModels;
 
 namespace MyMVCWebApp.Controllers
 {
     public class CoursesController : Controller
     {
-        ITIDBContext itiDb = new ITIDBContext();
-
+        ICourseRepository courseRepo;
+        IDepartmentRepository deptRepo;
+        public CoursesController(ICourseRepository _courseRepo, IDepartmentRepository _deptRepo)
+        {
+            courseRepo = _courseRepo;
+            deptRepo = _deptRepo;
+        }
         // GET: Courses
         public IActionResult Index()
         {
-            var courses = itiDb.Courses
-                .Include(c => c.Department)
-                .Include(c => c.CrsResults)
+            var courses = courseRepo.GetAll();
+            if (courses == null)
+                return NotFound();
+
+            var coursesVM = courses
                 .Select(c => new CoursesViewModel
                 {
                     Id = c.Id,
                     Name = c.Name,
                     DepartmentName = c.Department.Name,
                     TraineesCount = c.CrsResults.Count
-                })
-                .ToList();
+                }).ToList();
 
-            if (courses == null)
-                return NotFound();
-            return View(courses);
+            return View(coursesVM);
         }
 
         // GET: Courses/Details/@id
         public IActionResult Details(int id)
         {
-            var course = itiDb.Courses
-                .Include(c => c.Department)
-                .Include(c => c.CrsResults)
-                    .ThenInclude(cr => cr.Trainee)
-                .FirstOrDefault(c => c.Id == id);
+            Course? course = courseRepo.GetById(id);
 
             if (course == null)
             {
@@ -67,25 +67,49 @@ namespace MyMVCWebApp.Controllers
         // GET: Courses/Add
         public IActionResult Add()
         {
-            ViewBag.Departments = new SelectList(itiDb.Departments, "Id", "Name");
+            ViewBag.Departments = new SelectList(deptRepo.GetAll(), "Id", "Name");
             return View();
         }
 
         // POST: Courses/Add
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Add(Course course)
+        public IActionResult SaveAdd(Course course)
         {
-            if (string.IsNullOrEmpty(course.Name) ||
-                course.MinDegree > course.Degree)
+            if (ModelState.IsValid == true)
             {
-                ViewBag.Departments = new SelectList(itiDb.Departments, "Id", "Name");
-                return View(course);
+                try
+                {
+                    courseRepo.Add(course);
+                    courseRepo.Save();
+                    return RedirectToAction(nameof(Index));
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError("NewError", ex.InnerException?.Message ?? "There is an error adding this course!");
+                }
             }
 
-            itiDb.Courses.Add(course);
-            itiDb.SaveChanges();
-            return RedirectToAction(nameof(Index));
+            ViewBag.Departments = new SelectList(deptRepo.GetAll(), "Id", "Name");
+            return View("Add", course);
+        }
+
+        // Min Degree Validation (has to be lower than degree)
+        public IActionResult ValidateMinDegree(int minDegree, int degree)
+        {
+            if (minDegree >= degree)
+                return Json($"Minimum Degree Must be Lower Than Degree ({degree})!");
+            else
+                return Json(true);
+        }
+
+        // Hours Validation (has to be divided by 3)
+        public IActionResult ValidateHours(int hours)
+        {
+            if (hours % 3 != 0)
+                return Json("Hours Must be Divided by 3");
+            else
+                return Json(true);
         }
     }
 }

@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyMVCWebApp.Models;
 
@@ -10,9 +11,11 @@ using MyMVCWebApp.Models;
 namespace MyMVCWebApp.Migrations
 {
     [DbContext(typeof(ITIDBContext))]
-    partial class ITIDBContextModelSnapshot : ModelSnapshot
+    [Migration("20250528060716_NameLengthModified")]
+    partial class NameLengthModified
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

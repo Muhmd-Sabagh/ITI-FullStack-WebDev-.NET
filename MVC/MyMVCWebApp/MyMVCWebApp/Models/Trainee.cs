@@ -17,7 +17,7 @@ namespace MyMVCWebApp.Models
 
         public int DeptId { get; set; }
 
-        public virtual Department Department { get; set; }
+        public virtual Department? Department { get; set; }
 
         public virtual List<CrsResult> CrsResults { get; set; } = new List<CrsResult>();
     }
