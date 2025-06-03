@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITIDB_API", "ITIDB_API\ITIDB_API.csproj", "{823DDE33-2362-46E9-ACEF-A486E8D94C36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{823DDE33-2362-46E9-ACEF-A486E8D94C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823DDE33-2362-46E9-ACEF-A486E8D94C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823DDE33-2362-46E9-ACEF-A486E8D94C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823DDE33-2362-46E9-ACEF-A486E8D94C36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E75D3BB-06A6-4CD6-AA00-08560AA47AE5}
+	EndGlobalSection
+EndGlobal
