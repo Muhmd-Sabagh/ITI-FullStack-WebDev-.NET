@@ -24,7 +24,7 @@ namespace MyMVCWebApp
                 options.IdleTimeout = TimeSpan.FromMinutes(30);
             });
 
-            //3) Custom Service and Need To Register  315 
+            //3) Custom Service and Need To Register 315 
             // Add Custom Service For Repositories and Register Them
             builder.Services.AddScoped<ICourseRepository, CourseRepository>();
             builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
