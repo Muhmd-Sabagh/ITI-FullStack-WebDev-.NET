@@ -159,5 +159,5 @@ function isWeekend(day: weekDays): boolean {
 }
 
 console.log(
-  `Is Today is a Weekend? ${isWeekend((new Date().getDate() + 7) % 7)}`
+  `Is Today is a Weekend? ${isWeekend((new Date().getDay() + 8) % 7)}`
 );

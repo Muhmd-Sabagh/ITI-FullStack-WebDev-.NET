@@ -93,4 +93,4 @@ var weekDays;
 function isWeekend(day) {
     return day === weekDays.Friday || day === weekDays.Saturday;
 }
-console.log(`Is Today is a Weekend? ${isWeekend((new Date().getDate() + 7) % 7)}`);
+console.log(`Is Today is a Weekend? ${isWeekend((new Date().getDay() + 8) % 7)}`);
