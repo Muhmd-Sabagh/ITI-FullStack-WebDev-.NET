@@ -1,0 +1,24 @@
+nav a {
+  padding: 10px;
+  display: inline-block;
+  color: white;
+}
+
+nav .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+nav ul li {
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+nav ul a:hover,
+nav ul a.active {
+  text-decoration: none;
+  background-color: #fff;
+  color: #0d6efd !important;
+  transition: color 0.2s ease-in-out;
+}
