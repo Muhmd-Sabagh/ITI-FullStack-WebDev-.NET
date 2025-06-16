@@ -1,0 +1,10 @@
+<!-- app.component.html -->
+<!-- The Navbar component is always present -->
+<app-navbar (navigate)="onNavigate($event)"></app-navbar>
+
+<!-- Conditionally render components based on selectedView -->
+<app-home *ngIf="selectedView === 'home'"></app-home>
+<app-movies *ngIf="selectedView === 'movies'"></app-movies>
+<app-capitalize-input
+  *ngIf="selectedView === 'capitalize'"
+></app-capitalize-input>

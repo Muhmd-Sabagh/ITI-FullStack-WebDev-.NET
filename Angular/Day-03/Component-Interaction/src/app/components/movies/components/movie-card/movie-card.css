@@ -1,0 +1,96 @@
+.rounded-card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.rounded-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.rounded-top-image {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.badge {
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+.rounded-pill-badge {
+  border-radius: 50rem !important;
+}
+
+.bg-success {
+  background-color: #28a745 !important;
+}
+
+.bg-danger {
+  background-color: #dc3545 !important;
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.text-primary-movie {
+  color: #007bff;
+}
+
+.text-muted {
+  color: #6c757d !important;
+  font-size: 0.95rem;
+}
+
+.description-text {
+  font-size: 0.9rem;
+  color: #495057;
+  line-height: 1.6;
+  max-height: 90px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 4;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.rating-value,
+.category-value {
+  font-weight: bold;
+  color: #343a40;
+}
+
+.btn-outline-danger {
+  border-color: #dc3545;
+  color: #dc3545;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.rounded-pill-button {
+  border-radius: 50rem !important;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #fff;
+}

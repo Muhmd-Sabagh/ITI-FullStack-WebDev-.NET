@@ -1,0 +1,60 @@
+.capitalize-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 60px);
+  padding: 20px;
+  background-color: #f0f2f5;
+}
+
+.rounded-card-capitalize {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  width: 100%;
+}
+
+.capitalize-heading {
+  color: #333;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.form-label {
+  color: #555;
+  font-weight: 600;
+}
+
+.form-control-lg {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+}
+
+.rounded-pill-input {
+  border-radius: 50rem;
+  border: 2px solid #007bff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rounded-pill-input:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .rounded-card-capitalize {
+    padding: 25px;
+    max-width: 95%;
+  }
+  .capitalize-heading {
+    font-size: 2rem;
+  }
+  .form-control-lg {
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+  }
+}

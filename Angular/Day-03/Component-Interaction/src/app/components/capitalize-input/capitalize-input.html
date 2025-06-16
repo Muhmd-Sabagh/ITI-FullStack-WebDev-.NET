@@ -1,0 +1,18 @@
+<div class="capitalize-container">
+  <div class="card shadow-lg p-4 rounded-card-capitalize">
+    <h2 class="text-center mb-4 capitalize-heading">Capitalize Input</h2>
+    <div class="mb-3">
+      <label for="capitalizeText" class="form-label fs-5"
+        >Type something:</label
+      >
+      <input
+        type="text"
+        id="capitalizeText"
+        class="form-control form-control-lg rounded-pill-input"
+        placeholder="Enter text to capitalize"
+        [ngModel]="inputValue"
+        (input)="onInputChange($event)"
+      />
+    </div>
+  </div>
+</div>

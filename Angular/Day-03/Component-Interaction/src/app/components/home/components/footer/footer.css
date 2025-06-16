@@ -1,0 +1,42 @@
+/* src/app/components/home/components/footer/footer.component.css */
+footer {
+  background-color: #212529 !important; /* Dark background */
+  color: #f8f9fa; /* Light text color */
+  border-top-left-radius: 10px; /* Rounded top-left corner */
+  border-top-right-radius: 10px; /* Rounded top-right corner */
+  padding-top: 2rem;
+}
+
+footer .text-reset {
+  color: #adb5bd !important; /* Lighter grey for links */
+  transition: color 0.3s ease;
+}
+
+footer .text-reset:hover {
+  color: #ffffff !important; /* White on hover */
+}
+
+footer .fw-bold {
+  color: #ffffff; /* White for bold headings */
+}
+
+footer .fab {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+footer .me-3 {
+  margin-right: 0.75rem !important; /* Adjust margin for icons */
+}
+
+/* Responsive adjustments for footer */
+@media (max-width: 767px) {
+  footer .text-center {
+    text-align: center !important;
+  }
+  footer .col-md-3,
+  footer .col-md-2,
+  footer .col-md-4 {
+    margin-bottom: 1.5rem; /* Space out columns on small screens */
+  }
+}

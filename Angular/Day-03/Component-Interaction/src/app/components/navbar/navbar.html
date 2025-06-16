@@ -1,0 +1,43 @@
+<nav
+  class="navbar navbar-expand-md tm-navbar py-3 bg-body-tertiary shadow sticky-top"
+  id="tmNav"
+>
+  <div class="container">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item">
+          <a
+            class="nav-link tm-nav-link active"
+            (click)="onNavigate('home')"
+            scaler
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link tm-nav-link" (click)="onNavigate('movies')" scaler
+            >Movies</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link tm-nav-link"
+            (click)="onNavigate('capitalize')"
+            scaler
+            >Capitalization</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,19 @@
+.rounded-corners-list {
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+.row.g-4 > [class*="col-"] {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

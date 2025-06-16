@@ -1,0 +1,49 @@
+<div class="movies-container">
+  <!-- Add Movie Section - Pass categories input -->
+  <app-add-movie
+    [categories]="categories"
+    (movieAdded)="addMovie($event)"
+  ></app-add-movie>
+
+  <!-- Filter and Search Section -->
+  <div class="container my-5">
+    <div class="row align-items-end g-3">
+      <!-- Search by Name -->
+      <div class="col-md-6">
+        <label for="searchName" class="form-label fs-5"
+          >Search by Movie Name</label
+        >
+        <input
+          type="text"
+          id="searchName"
+          class="form-control rounded-pill-input"
+          placeholder="Enter movie name"
+          [(ngModel)]="searchTerm"
+        />
+      </div>
+
+      <!-- Filter by Category -->
+      <div class="col-md-6">
+        <label for="filterCategory" class="form-label fs-5"
+          >Filter by Category</label
+        >
+        <select
+          id="filterCategory"
+          class="form-select rounded-pill-input"
+          [(ngModel)]="selectedCategory"
+        >
+          <option value="">All Categories</option>
+          @for (category of categories; track $index) {
+          <option [value]="category">{{ category }}</option>
+          }
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- Movies List Section -->
+  <app-movies-list
+    [movies]="filteredMovies"
+    (movieRemoved)="removeMovie($event)"
+  ></app-movies-list>
+</div>
