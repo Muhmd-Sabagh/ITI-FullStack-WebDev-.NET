@@ -1,0 +1,45 @@
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-4">
+      <div class="profile-card p-4 p-md-5 rounded-4 shadow">
+        <!-- Profile Image -->
+        <div class="text-center mb-4">
+          <img
+            src="https://t3.ftcdn.net/jpg/08/05/28/22/360_F_805282248_LHUxw7t2pnQ7x8lFEsS2IZgK8IGFXePS.jpg"
+            alt="Profile"
+            class="rounded-circle border border-3 border-white"
+            width="120"
+            height="120"
+          />
+        </div>
+
+        <!-- Username -->
+        <div class="text-center mb-4">
+          <h2 class="text-white fw-bold">
+            {{ user?.username || 'Guest User' }}
+          </h2>
+        </div>
+
+        <div class="profile-details text-white">
+          <!-- Email -->
+          <div class="mb-3 p-3 bg-dark bg-opacity-50 rounded-3">
+            <div class="text-white-50 small">EMAIL</div>
+            <div class="fs-5">{{ user?.email || 'Not provided' }}</div>
+          </div>
+
+          <!-- Age -->
+          <div class="mb-3 p-3 bg-dark bg-opacity-50 rounded-3">
+            <div class="text-white-50 small">AGE</div>
+            <div class="fs-5">{{ user?.age || 'Not provided' }}</div>
+          </div>
+
+          <!-- Address -->
+          <div class="mb-3 p-3 bg-dark bg-opacity-50 rounded-3">
+            <div class="text-white-50 small">ADDRESS</div>
+            <div class="fs-5">{{ user?.address || 'Not provided' }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

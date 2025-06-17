@@ -1,0 +1,5 @@
+.profile-card {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background-attachment: fixed;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}

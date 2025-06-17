@@ -1,0 +1,65 @@
+/* Form Container */
+.form-container {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background-attachment: fixed;
+  border: 1px solid rgba(44, 83, 100, 0.5);
+  backdrop-filter: blur(8px);
+}
+
+/* Input Fields */
+.input-group-text {
+  background-color: rgba(32, 58, 67, 0.7);
+  border-color: rgba(44, 83, 100, 0.3);
+  color: #a7c4cc;
+}
+
+.form-control {
+  background-color: rgba(15, 32, 39, 0.6);
+  border-color: rgba(44, 83, 100, 0.3);
+  color: #e0f2fe;
+}
+
+.form-control:focus {
+  border-color: #4d7c8a;
+  box-shadow: 0 0 0 0.25rem rgba(44, 83, 100, 0.25);
+  background-color: rgba(15, 32, 39, 0.9);
+}
+
+.form-control::placeholder {
+  color: rgba(160, 190, 200, 0.5);
+}
+
+/* Buttons */
+.btn-custom {
+  background: linear-gradient(to right, #2c5364, #3a7a8c);
+  border: none;
+  color: #e0f2fe;
+  transition: all 0.3s;
+}
+
+.btn-custom:hover {
+  background: linear-gradient(to right, #3a7a8c, #2c5364);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(44, 83, 100, 0.4);
+}
+
+/* Error Messages */
+.error-message {
+  color: #ff9a9a;
+  font-size: 0.85rem;
+  opacity: 0;
+  height: 0;
+  transition: all 0.3s;
+}
+
+.show-error {
+  opacity: 1;
+  height: auto;
+}
+
+/* Text Colors */
+.text-white-50 {
+  color: rgba(200, 225, 235, 0.7) !important;
+}

@@ -1,0 +1,151 @@
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-4">
+      <div class="form-container p-4 p-md-5">
+        <div class="text-center mb-4">
+          <h1 class="text-white fw-bold mb-3">Create Your Account</h1>
+          <p class="text-white-50">Join our community today</p>
+        </div>
+
+        <form
+          id="registrationForm"
+          [formGroup]="userForm"
+          (submit)="onSubmit()"
+        >
+          <!-- Name Field -->
+          <div class="mb-4">
+            <div class="input-group">
+              <span class="input-group-text"><i class="fas fa-user"></i></span>
+              <input
+                type="text"
+                class="form-control rounded-end"
+                id="username"
+                placeholder="Full Name"
+                formControlName="username"
+              />
+            </div>
+            @if(username.touched && username.invalid){
+            <div class="text-danger pt-1" id="nameError">
+              <span
+                id="nameRequiredError"
+                *ngIf="username.hasError('required')"
+              >
+                Please enter your full name
+              </span>
+              <span
+                id="nameLenthError"
+                *ngIf="username.hasError('minlength') || username.hasError('maxlength')"
+              >
+                Name must be from 3 to 50 characters
+              </span>
+              <span id="namePatternError" *ngIf="username.hasError('pattern')">
+                Name must contain only letters
+              </span>
+            </div>
+            }
+          </div>
+
+          <!-- Email Field -->
+          <div class="mb-4">
+            <div class="input-group">
+              <span class="input-group-text"
+                ><i class="fas fa-envelope"></i
+              ></span>
+              <input
+                type="text"
+                class="form-control rounded-end"
+                id="email"
+                placeholder="Email Address"
+                formControlName="email"
+              />
+            </div>
+            @if (email.touched && email.invalid){
+            <div class="text-danger pt-1" id="emailError">
+              <span id="emailRequiredError" *ngIf="email.hasError('required')">
+                Please enter your email address
+              </span>
+              <span id="emailPatternError" *ngIf="email.hasError('pattern')">
+                Please enter a valid email address
+              </span>
+            </div>
+            }
+          </div>
+
+          <!-- Age Field -->
+          <div class="mb-4">
+            <div class="input-group">
+              <span class="input-group-text"
+                ><i class="fas fa-calendar-alt"></i
+              ></span>
+              <input
+                type="number"
+                class="form-control rounded-end"
+                id="age"
+                placeholder="Age"
+                formControlName="age"
+              />
+            </div>
+            @if (age.touched && age.invalid){
+            <div class="text-danger pt-1" id="ageError">
+              <span id="ageRequiredError" *ngIf="age.hasError('required')">
+                Please enter your age
+              </span>
+              <span
+                id="ageLengthError"
+                *ngIf="age.hasError('min') || age.hasError('max')"
+              >
+                Age must be between 18 and 100
+              </span>
+            </div>
+            }
+          </div>
+
+          <!-- Address Field -->
+          <div class="mb-4">
+            <div class="input-group">
+              <span class="input-group-text"
+                ><i class="fas fa-map-marker-alt"></i
+              ></span>
+              <input
+                type="text"
+                class="form-control rounded-end"
+                id="address"
+                placeholder="Address"
+                formControlName="address"
+              />
+            </div>
+            @if (address.touched && address.invalid){
+            <div class="text-danger pt-1" id="addressError">
+              <span
+                id="addressRequiredError"
+                *ngIf="address.hasError('required')"
+              >
+                Please enter your address
+              </span>
+              <span
+                id="addressLengthError"
+                *ngIf="address.hasError('minlength') || address.hasError('maxlength')"
+              >
+                Address must be from 3 to 100 characters
+              </span>
+              <span
+                id="addressPatternError"
+                *ngIf="address.hasError('pattern')"
+              >
+                Please enter a valid address
+              </span>
+            </div>
+            }
+          </div>
+
+          <!-- Submit Button -->
+          <div class="d-grid mb-4">
+            <button type="submit" class="btn btn-custom btn-lg text-white py-3">
+              <i class="fas fa-user-plus me-2"></i> Register Now
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

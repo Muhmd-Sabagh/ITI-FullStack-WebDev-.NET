@@ -1,0 +1,2 @@
+<app-registeration (onRegister)="getUser($event)" *ngIf="!isRegistered" />
+<app-profile [user]="user" *ngIf="isRegistered" />
