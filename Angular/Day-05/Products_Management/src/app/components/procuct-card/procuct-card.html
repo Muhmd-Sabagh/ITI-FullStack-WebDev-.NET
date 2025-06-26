@@ -1,0 +1,14 @@
+<div class="card h-100 shadow-sm">
+  <img [src]="product.imgSrc" class="card-img-top" [alt]="placeholderImage" />
+  <div class="card-body">
+    <h5 class="card-title">{{ product.name }}</h5>
+    <p class="card-text">💵 Price: {{ product.price | currency }}</p>
+    <p class="card-text">📦 Quantity: {{ product.quantity }}</p>
+    <a
+      class="btn btn-outline-primary w-100"
+      [routerLink]="['/product-details', product.id]"
+    >
+      View Details
+    </a>
+  </div>
+</div>

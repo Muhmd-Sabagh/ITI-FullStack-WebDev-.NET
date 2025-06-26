@@ -1,0 +1,42 @@
+<div class="container py-5">
+  <div *ngIf="product; else notFound">
+    <h2 class="mb-4">🛒 Product Details</h2>
+    <div class="card mb-3 shadow-sm">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img
+            [src]="product.imgSrc"
+            class="img-fluid rounded-start"
+            alt="{{ product.name }}"
+          />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">{{ product.name }}</h5>
+            <p class="card-text">
+              <strong>💵 Price:</strong> ${{ product.price }}
+            </p>
+            <p class="card-text">
+              <strong>📦 Quantity:</strong> {{ product.quantity }}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer">
+        <a routerLink="/products-manage" class="btn btn-secondary me-2">
+          <i class="bi bi-arrow-left-circle me-1"></i> Back to Products Manage
+        </a>
+        <a routerLink="/products" class="btn btn-secondary me-2">
+          <i class="bi bi-arrow-left-circle me-1"></i> Back to Products
+        </a>
+        <a [routerLink]="['/product/edit', product.id]" class="btn btn-primary">
+          <i class="bi bi-pencil-square me-1"></i> Edit Product
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #notFound>
+    <div class="alert alert-danger text-center">Product not found.</div>
+  </ng-template>
+</div>

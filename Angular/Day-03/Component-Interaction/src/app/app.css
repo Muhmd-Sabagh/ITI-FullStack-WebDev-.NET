@@ -7,80 +7,68 @@ body {
   overflow-x: hidden;
 }
 
-/* Base styles for anchors */
 a {
   transition: all 0.3s ease;
   color: #38b;
   text-decoration: none;
 }
 
-/* Hover and focus states for anchors */
 a:hover,
 a:focus {
   text-decoration: none;
   color: #d40;
 }
 
-/* Focus outline removal */
 a:focus {
   outline: none;
 }
 
-/* Common button styles */
 .btn {
   padding: 8px 32px;
-  border-radius: 5px; /* Added rounded corners for buttons */
+  border-radius: 5px;
 }
 
-/* Button hover state */
 .btn:hover {
   background-color: #ced4da;
 }
 
-/* Blockquote styling */
 blockquote {
   font-size: 0.86em;
   line-height: 1.8em;
 }
 
-/* Section padding top for common sections */
 .tm-section-pad-top {
   padding-top: 80px;
   padding-bottom: 40px;
 }
 
-/* Content box padding */
 .tm-content-box {
   padding-top: 20px;
   padding-bottom: 40px;
 }
 
-/* Primary text color */
 .tm-text-primary {
   color: #37a;
 }
 
-/* Big font size utility */
 .tm-font-big {
   font-size: 1.25rem;
 }
 
-/* Primary button styles */
 .tm-btn-primary {
   color: white;
   background-color: #369;
   padding: 14px 30px;
-  border-radius: 5px; /* Added rounded corners for primary button */
+  border-radius: 5px;
 }
 
-/* Primary button hover/focus states */
 .tm-btn-primary:hover,
 .tm-btn-primary:focus {
   color: white;
   background-color: #38b;
 }
 
-/* Media Queries for responsiveness */
+/* Media Queries */
 @media (min-width: 768px) {
   .tm-intro-text-container {
     padding-left: 0px;
@@ -165,7 +153,7 @@ blockquote {
   }
 }
 
-/* Introduction section specific styles */
+/* Introduction Section */
 #introduction {
   padding-bottom: 100px;
 }
@@ -188,19 +176,19 @@ blockquote {
   padding: 20px 0 30px 0;
 }
 
-/* Testimonials section specific styles */
+/* Testimonials Section */
 #testimonials {
   color: white;
-  background-image: url(/assets/img/infinite-loop-02.jpg); /* Placeholder image */
+  background-image: url(/assets/img/infinite-loop-02.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; /* Center the background image */
+  background-position: center;
   position: relative;
 }
 
 @media (max-width: 991px) {
   #testimonials {
-    background-image: url(/assets/img/infinite-loop-02-mobile.jpg); /* Placeholder image for mobile */
+    background-image: url(/assets/img/infinite-loop-02-mobile.jpg);
   }
 }
 
@@ -243,7 +231,7 @@ blockquote {
   font-size: 1.1rem;
 }
 
-/* Work section (Gallery) specific styles */
+/* Work Section (Gallery) */
 .tm-section-desc {
   max-width: 650px;
   width: 100%;
@@ -257,8 +245,8 @@ blockquote {
 
 .tm-gallery-item {
   margin: 0 15px;
-  border-radius: 8px; /* Added rounded corners for gallery items */
-  overflow: hidden; /* Ensure content respects border-radius */
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 /* Slick carousel dots styles (if you plan to use Slick JS) */

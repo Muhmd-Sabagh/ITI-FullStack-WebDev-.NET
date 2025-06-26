@@ -1,0 +1,61 @@
+<main class="flex-fill py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h1 class="display-5 fw-bold text-success">Welcome to My Store</h1>
+      <p class="lead text-muted">
+        Manage your products efficiently and effortlessly. Add, edit, and track
+        inventory from one place.
+      </p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body text-center">
+            <i class="bi bi-box-seam display-4 text-primary mb-3"></i>
+            <h5 class="card-title">Add Products</h5>
+            <p class="card-text">
+              Quickly add new products to your inventory with essential details.
+            </p>
+            <a [routerLink]="['/product/add']" class="btn btn-outline-primary"
+              >Add Now</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body text-center">
+            <i class="bi bi-card-checklist display-4 text-success mb-3"></i>
+            <h5 class="card-title">View Inventory</h5>
+            <p class="card-text">
+              See all your current products in one organized list.
+            </p>
+            <a [routerLink]="['/products']" class="btn btn-outline-success"
+              >View Products</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body text-center">
+            <i class="bi bi-gear-fill display-4 text-warning mb-3"></i>
+            <h5 class="card-title">Manage Stock</h5>
+            <p class="card-text">
+              Update quantities, remove discontinued items, or edit product
+              info.
+            </p>
+            <a
+              [routerLink]="['/products-manage']"
+              class="btn btn-outline-warning"
+              >Manage Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
