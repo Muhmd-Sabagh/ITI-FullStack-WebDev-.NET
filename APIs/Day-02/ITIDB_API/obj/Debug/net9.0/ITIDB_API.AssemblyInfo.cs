@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ITIDB_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbb974a0f35beee3391e22d552208cf036cccb09")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8c69c41edfc096bfa42d386d13e1a41f1a3de58")]
 [assembly: System.Reflection.AssemblyProductAttribute("ITIDB_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ITIDB_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
